@@ -1,4 +1,4 @@
-![](./output/lab1.docx/media/image2.svg){width="0.9251334208223972in" height="0.9251334208223972in"} Microsoft Copilot Studio
+![](./media/image2.svg){width="0.9251334208223972in" height="0.9251334208223972in"} Microsoft Copilot Studio
 
 실습 01: Microsoft Copilot Studio에서 첫 번째 코파일럿 만들기
 
@@ -132,7 +132,7 @@ Contents
 
 InPrivate 세션 시작
 
-![](./output/lab1.docx/media/image5.png){width="7.514583333333333in"
+![](./media/image5.png){width="7.514583333333333in"
 height="0.8548611111111111in"}
 
 ### 작업 2: Copilot Studio에 로그인하기
@@ -155,7 +155,7 @@ aka.ms/CopilotStudioStart로 이동
 계속 로그인할지 묻는 메시지가 나타나면 선택
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image6.png){width="3.1311318897637794in"
+generated](./media/image6.png){width="3.1311318897637794in"
 height="2.9361056430446193in"}
 
 5.  The first time you access Microsoft Copilot Studio, you'll be
@@ -240,7 +240,7 @@ Microsoft Copilot Studio 홈페이지에서 코파일럿을 설명하여 만듭�
 +----+----+------------------------------------------------------+----+
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image9.png){width="7.514583333333333in"
+generated](./media/image9.png){width="7.514583333333333in"
 height="3.765277777777778in"}
 
 2.  You will get redirected to a conversational experience to further
@@ -515,7 +515,7 @@ Workshop\")에 저장합니다.
 그런 다음 \"생성\"을 선택할 수 있습니다.
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image12.png){width="7.514583333333333in"
+generated](./media/image12.png){width="7.514583333333333in"
 height="3.765277777777778in"}
 
 +------+---------------------------------------------------------------+
@@ -561,7 +561,7 @@ Microsoft Copilot Studio는 기본부터 고급 코파일럿을 쉽게 만들 �
 ### Main interface 주요 인터페이스
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image13.png){width="7.514583333333333in"
+generated](./media/image13.png){width="7.514583333333333in"
 height="3.765277777777778in"}
 
 A.  **Home** -- Displays Microsoft Copilot Studio home page. This is the
@@ -723,7 +723,7 @@ G.  **Test your copilot** -- The test pane allows you to immediately
 ### Settings interface 설정 인터페이스
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image14.png){width="7.485681321084864in"
+generated](./media/image14.png){width="7.485681321084864in"
 height="5.794444444444444in"}
 
 1.  **Copilot details 코파일럿 세부 사항**-- 코파일럿 표시 이름,
@@ -773,7 +773,7 @@ height="5.794444444444444in"}
 화면 오른쪽 상단의 테스트를 선택하여 테스트 코파일럿 창을 표시합니다.
 
 ![A screenshot of a phone Description automatically
-generated](./output/lab1.docx/media/image15.png){width="3.3464566929133857in"
+generated](./media/image15.png){width="3.3464566929133857in"
 height="5.072926509186352in"}
 
 2.  The **Test copilot** pane shows that a message has already been sent
@@ -789,7 +789,7 @@ height="5.072926509186352in"}
 설명하세요\" 프롬프트에 \"Hello\"를 입력하고 전송 버튼을 선택합니다.
 
 ![A screenshot of a chat Description automatically
-generated](./output/lab1.docx/media/image16.png){width="3.3464566929133857in"
+generated](./media/image16.png){width="3.3464566929133857in"
 height="4.903140857392826in"}
 
 The Copilot will offer a greeting in the **Test Copilot** pane
@@ -814,7 +814,7 @@ The Copilot will offer a greeting in the **Test Copilot** pane
 따라 특정 정보를 제공합니다.
 
 ![A screenshot of a chat Description automatically
-generated](./output/lab1.docx/media/image17.png){width="3.3464566929133857in"
+generated](./media/image17.png){width="3.3464566929133857in"
 height="4.672415791776028in"}\
 \
 Now that you\'ve reviewed an existing topic, you can move on to the next
@@ -858,7 +858,7 @@ exercise to create a new topic.
 +------+---------------------------------------------------------------+
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image18.png){width="7.514583333333333in"
+generated](./media/image18.png){width="7.514583333333333in"
 height="4.944444444444445in"}
 
 ## 연습 4: 첫 번째 주제 만들기
@@ -877,7 +877,7 @@ Microsoft Copilot Studio의 왼쪽 메뉴에서 주제를 선택합니다.
 화면 상단의 주제 추가 드롭다운에서 빈 상태에서 옵션을 선택합니다.
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image19.png){width="5.701832895888014in"
+generated](./media/image19.png){width="5.701832895888014in"
 height="1.9506681977252844in"}
 
 3.  Rename your topic title, by clicking on **untitled** and renaming it
@@ -1024,7 +1024,7 @@ become more familiar with it.
 사용자 인터페이스(UI)를 탐색하여 친숙해질 수 있습니다.\
 \
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image20.png){width="7.514583333333333in"
+generated](./media/image20.png){width="7.514583333333333in"
 height="4.906944444444444in"}
 
 1.  **Topic title** -- The name of the topic that you\'re currently
@@ -1236,7 +1236,7 @@ videos, and Adaptive Cards.
 
 ![Screens screenshot of a screenshot of a computer Description
 automatically
-generated](./output/lab1.docx/media/image21.png){width="5.789755030621173in"
+generated](./media/image21.png){width="5.789755030621173in"
 height="5.384187445319335in"}
 
 +------+---------------------------------------------------------------+
@@ -1352,7 +1352,7 @@ content.
 **
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image22.png){width="3.3464566929133857in"
+generated](./media/image22.png){width="3.3464566929133857in"
 height="4.937711067366579in"}
 
 2.  End the conversation for the customer in this demo scenario. Select
@@ -1370,7 +1370,7 @@ height="4.937711067366579in"}
 고객 만족도 설문조사를 작성하도록 제안합니다.\
 \
 ![A screenshot of a chat Description automatically
-generated](./output/lab1.docx/media/image23.png){width="3.3464566929133857in"
+generated](./media/image23.png){width="3.3464566929133857in"
 height="3.9254615048118984in"}
 
 +------+---------------------------------------------------------------+
@@ -1551,7 +1551,7 @@ Copilot Studio에서 주제를 만들 수 있습니다. 설명으로부터 만�
 나타납니다.\
 \
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image24.png){width="5.708661417322834in"
+generated](./media/image24.png){width="5.708661417322834in"
 height="1.7363057742782153in"}
 
 3.  Enter Support Ticket in the **Name** your topic field.
@@ -1634,7 +1634,7 @@ height="1.7363057742782153in"}
 생성을 선택합니다.
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image25.png){width="6.653543307086614in"
+generated](./media/image25.png){width="6.653543307086614in"
 height="3.6320516185476817in"}
 
 > Copilot creates your topic, including the trigger phrases, question
@@ -1721,7 +1721,7 @@ height="3.6320516185476817in"}
 +----+----+------------------------------------------------------+----+
 
 > ![A screenshot of a computer Description automatically
-> generated](./output/lab1.docx/media/image26.png){width="4.330708661417323in"
+> generated](./media/image26.png){width="4.330708661417323in"
 > height="3.0432064741907263in"}
 >
 > Copilot automatically adds a question node, which both asks the
@@ -1732,7 +1732,7 @@ height="3.6320516185476817in"}
 > 자동으로 추가합니다.
 >
 > ![A screenshot of a phone application Description automatically
-> generated](./output/lab1.docx/media/image27.png){width="2.952755905511811in"
+> generated](./media/image27.png){width="2.952755905511811in"
 > height="4.6684317585301836in"}
 
 +------+---------------------------------------------------------------+
@@ -1784,7 +1784,7 @@ Microsoft Copilot Studio의 Copilot 기능은 작성 시간을 대폭 단축하�
 
 새 주제를 저장합니다.
 
-8.  ![](./output/lab1.docx/media/image29.png){width="0.16875in"
+8.  ![](./media/image29.png){width="0.16875in"
     height="0.15694444444444444in"}Use the **Test pane** to validate
     that your bot behaves as expected.\
     Don't hesitate to use the refresh icon to start from a new
@@ -1889,7 +1889,7 @@ Microsoft Copilot Studio의 Copilot 기능은 작성 시간을 대폭 단축하�
 열리는 이 구성을 저장하시겠습니까? 패널에서 저장을 선택합니다.
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image30.png){width="4.502120516185477in"
+generated](./media/image30.png){width="4.502120516185477in"
 height="2.108559711286089in"}
 
 ### Task 2: Publish your copilot 작업 2: 코파일럿 게시하기
@@ -1919,7 +1919,7 @@ Microsoft Copilot Studio에서 채널 탭으로 이동합니다.
 합니다.
 
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image31.png){width="6.692913385826771in"
+generated](./media/image31.png){width="6.692913385826771in"
 height="3.1346073928258966in"}
 
 +------+---------------------------------------------------------------+
@@ -1978,7 +1978,7 @@ height="3.1346073928258966in"}
 다음 스크린샷에 표시된 데모 웹사이트 링크를 선택합니다.\
 \
 ![A screenshot of a computer Description automatically
-generated](./output/lab1.docx/media/image32.png){width="6.6929155730533685in"
+generated](./media/image32.png){width="6.6929155730533685in"
 height="3.134615048118985in"}
 
 4.  When the demo site window opens, you can interact with the copilot
@@ -1989,7 +1989,7 @@ height="3.134615048118985in"}
 옵션에서 시작 구문을 선택하여 코파일럿과 상호 작용할 수 있습니다.\
 \
 ![A screenshot of a chatbot Description automatically
-generated](./output/lab1.docx/media/image33.png){width="6.225893482064742in"
+generated](./media/image33.png){width="6.225893482064742in"
 height="3.660971128608924in"}
 
 Congratulations, you\'ve now built and published your first copilot!
