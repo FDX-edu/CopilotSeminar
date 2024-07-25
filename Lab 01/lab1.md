@@ -1,5 +1,4 @@
-![](./output/lab1.docx/media/image2.svg){width="0.9251334208223972in"
-height="0.9251334208223972in"} Microsoft Copilot Studio
+![](./output/lab1.docx/media/image2.svg){width="0.9251334208223972in" height="0.9251334208223972in"} Microsoft Copilot Studio
 
 실습 01: Microsoft Copilot Studio에서 첫 번째 코파일럿 만들기
 
