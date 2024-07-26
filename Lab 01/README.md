@@ -1,4 +1,5 @@
-# Microsoft Copilot Studio 
+# Lab 01:  Microsoft Copilot Studio에서 첫번째 Copilot 만들기
+
 
 
 ## 이 실습의 목표
