@@ -411,89 +411,17 @@ AI를 오케스트레이터로 사용할 때 자동으로 슬롯을 채울 수 �
 3.  기본적으로 사용자 응답은 Var1이라는 변수에 저장됩니다. 변수 이름을 예를
 들어 OrderRequest로 변경하려면 변수 이름을 클릭할 수 있습니다.
 
-+------+---------------------------------------------------------------+
-| ![Li | **Pro tips:**                                                 |
-| ghts |                                                               |
-| On   | -   It is a best practice to always properly name variables   |
-| out  |     so they can be clearly identified when you reference them |
-| line |     in your logic, and it also adds clarity when doing tests  |
-| ](./ |     and checking the variable values at runtime.              |
-| outp |                                                               |
-| ut/l | -   Customers and partners can define and follow naming       |
-| ab1. |     conventions for their variables, for consistency and ease |
-| docx |     of maintenance.                                           |
-| /med |                                                               |
-| ia/i | Pro tips:                                                     |
-| mage |                                                               |
-| 4.sv | 변수를 항상 적절하게 이름을 지정하는 것이 모범 사례입니다.    |
-| g){w | 이렇게 하면 논리에서 참조할 때 명확하게 식별할 수 있으며,     |
-| idth | 테스트를 수행하고 실행 시 변수 값을 확인할 때 명확성을        |
-| ="0. | 추가합니다. 고객 및 파트너는 일관성과 유지 관리 용이성을 위해 |
-| 4724 | 변수의 명명 규칙을 정의하고 따를 수 있습니다.                 |
-| 4094 |                                                               |
-| 4881 |                                                               |
-| 8897 |                                                               |
-| 6in" |                                                               |
-| hei  |                                                               |
-| ght= |                                                               |
-| "0.4 |                                                               |
-| 7244 |                                                               |
-| 0944 |                                                               |
-| 8818 |                                                               |
-| 8976 |                                                               |
-| in"} |                                                               |
-+======+===============================================================+
-+------+---------------------------------------------------------------+
+**Pro tips:**  변수를 항상 적절하게 이름을 지정하는 것이 모범 사례입니다.  이렇게 하면 논리에서 참조할 때 명확하게 식별할 수 있으며, 테스트를 수행하고 실행 시 변수 값을 확인할 때 명확성을 추가합니다. 고객 및 파트너는 일관성과 유지 관리 용이성을 위해 변수의 명명 규칙을 정의하고 따를 수 있습니다.
 
-![Screens screenshot of a screenshot of a computer Description
-automatically
-generated](./media/image21.png){width="5.789755030621173in"
-height="5.384187445319335in"}
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image21.png">
 
-+------+---------------------------------------------------------------+
-| ![Li | **Pro tips:**                                                 |
-| ghts |                                                               |
-| On   | -   Question behavior can be customized by clicking on ...,   |
-| out  |     Properties, and Question behavior. From here, you can     |
-| line |     define if the question can be skipped, how many time it   |
-| ](./ |     should be re-prompted to the user, validation rules, and  |
-| outp |     what should happen if the user doesn't answer as          |
-| ut/l |     expected.                                                 |
-| ab1. |                                                               |
-| docx | -   You can also define whether a user can jump to another    |
-| /med |     topic without answering the question, and you can define  |
-| ia/i |     the list of topics that are allowed in case of            |
-| mage |     interruption.                                             |
-| 4.sv |                                                               |
-| g){w | -   It is a best practice to define retry prompts in case the |
-| idth |     user doesn't understand what is expected from them the    |
-| ="0. |     first time. It is then OK to be much more explicit with   |
-| 4724 |     the user when trying to help them properly answer a       |
-| 4094 |     question.                                                 |
-| 4881 |                                                               |
-| 8897 | Pro tips:                                                     |
-| 6in" |                                                               |
-| hei  | 질문 행동은 \... 속성 및 질문 행동을 클릭하여 사용자 정의할   |
-| ght= | 수 있습니다. 여기서 질문을 건너뛸 수 있는지 여부, 사용자에게  |
-| "0.4 | 다시 프롬프트할 횟수, 유효성 검사 규칙 및 사용자가 예상대로   |
-| 7244 | 응답하지 않을 경우의 동작을 정의할 수 있습니다. 또한 사용자가 |
-| 0944 | 질문에 응답하지 않고 다른 주제로 이동할 수 있는지 여부를      |
-| 8818 | 정의할 수 있으며, 중단 시 허용되는 주제 목록을 정의할 수      |
-| 8976 | 있습니다. 첫 번째로 사용자가 기대하는 것을 이해하지 못할      |
-| in"} | 경우를 대비해 재프롬프트를 정의하는 것이 모범 사례입니다.     |
-|      | 그런 다음 질문에 올바르게 응답할 수 있도록 사용자에게 훨씬 더 |
-|      | 명확하게 설명하는 것이 좋습니다.                              |
-+======+===============================================================+
-+------+---------------------------------------------------------------+
+**Pro tips :** 
+•	질문 동작은 속성 및 질문 동작을 클릭하여 사용자 지정할 수 있습니다. 여기에서 질문을 건너뛸 수 있는지,  사용자에게 질문을 다시 요청해야 하는 횟수  , 유효성 검사 규칙,  사용자가  예상대로 답변하지 않을 경우 어떻게 해야 하는지 정의할 수 있습니다.
+•	또한 사용자가  질문에 답변하지 않고 다른 주제로 이동할 수 있는지 여부를 정의할 수  있으며, 중단 시 허용되는 주제 목록을 정의할 수 있습니다. 
+•	사용자가 처음에 예상되는 내용을 이해하지 못하는 경우 재시도 프롬프트를 정의하는 것이 가장 좋습니다. 그런 다음 사용자가 질문에 적절하게 대답할 수 있도록 도와줄 때 훨씬 더 명확하게 설명해도 됩니다.
+
 
 #### Fundamental knowledge: Message node 기본 지식: 메시지 노드
-
-You can use the Message node to display a message to the user. This
-message can be simple based on the topic of the conversation. In direct
-contrast to the Question node, the Message node doesn\'t expect or store
-an answer from the user. The Message node also has rich text options
-that you can display in text, or advanced options like cards, images,
-videos, and Adaptive Cards.
 
 메시지 노드는 사용자에게 메시지를 표시하는 데 사용할 수 있습니다. 이
 메시지는 대화 주제에 따라 간단할 수 있습니다. 질문 노드와는 달리 메시지
@@ -501,48 +429,7 @@ videos, and Adaptive Cards.
 리치 텍스트 옵션도 있어 텍스트로 표시하거나 카드, 이미지, 비디오 및
 적응형 카드와 같은 고급 옵션을 사용할 수 있습니다.
 
-+------+---------------------------------------------------------------+
-| ![Li | **Pro tips:**                                                 |
-| ghts |                                                               |
-| On   | -   To make the copilot sound more natural and human, you can |
-| out  |     configure message variations, so that the copilot will    |
-| line |     send one of the configured messages, avoiding strict      |
-| ](./ |     repletion of the same message.                            |
-| outp |                                                               |
-| ut/l | Pro tips:                                                     |
-| ab1. |                                                               |
-| docx | 코파일럿을 더 자연스럽고 인간적으로 들리게 하기 위해 메시지   |
-| /med | 변형을 구성할 수 있습니다. 이렇게 하면 코파일럿이 동일한      |
-| ia/i | 메시지를 반복하지 않고 구성된 메시지 중 하나를 보내게 됩니다. |
-| mage |                                                               |
-| 4.sv |                                                               |
-| g){w |                                                               |
-| idth |                                                               |
-| ="0. |                                                               |
-| 4724 |                                                               |
-| 4094 |                                                               |
-| 4881 |                                                               |
-| 8897 |                                                               |
-| 6in" |                                                               |
-| hei  |                                                               |
-| ght= |                                                               |
-| "0.4 |                                                               |
-| 7244 |                                                               |
-| 0944 |                                                               |
-| 8818 |                                                               |
-| 8976 |                                                               |
-| in"} |                                                               |
-+======+===============================================================+
-+------+---------------------------------------------------------------+
-
-You can also use variables within message nodes in the body of text
-displayed to the user, which is dynamic based on the data stored within
-them. This capability allows messages to be more personal, such as
-"*Hello {System.User.FirstName}, I can get those order details for you,
-one moment**"**.* Variables can also store data to perform automation or
-calculations on them. Later exercises cover variables more in depth.
-Last, you can also add Power Fx formulas to create even more dynamic
-content.
+**Pro tips :**   코파일럿을 더 자연스럽고 인간적으로 들리게 하기 위해 메시지 변형을 구성할 수 있습니다. 이렇게 하면 코파일럿이 동일한  메시지를 반복하지 않고 구성된 메시지 중 하나를 보내게 됩니다.
 
 메시지 노드 내에서 변수를 사용할 수 있어 사용자에게 표시되는 텍스트
 본문이 저장된 데이터에 따라 동적일 수 있습니다. 이 기능을 통해 메시지를
@@ -552,193 +439,38 @@ content.
 변수를 더 깊이 다룹니다. 마지막으로 Power Fx 공식을 추가하여 더 동적인
 콘텐츠를 만들 수 있습니다.
 
-1.  To add another node, select the **+ button** below the Question
-    node. Then, select **Send a message**. Enter a message that
-    acknowledges the customer\'s question, such as Thank you for your
-    question!
-
-질문 노드 아래의 + 버튼을 선택하여 다른 노드를 추가합니다. 그런 다음
+1.  질문 노드 아래의 + 버튼을 선택하여 다른 노드를 추가합니다. 그런 다음
 메시지 보내기를 선택합니다. 고객의 질문에 감사하는 메시지를
 입력합니다(예: \"질문해 주셔서 감사합니다!\").**\
 **
 
-![A screenshot of a computer Description automatically
-generated](./media/image22.png){width="3.3464566929133857in"
-height="4.937711067366579in"}
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image22.png">
 
-2.  End the conversation for the customer in this demo scenario. Select
-    the **+ button** below the message node within the authoring canvas.
-    Hover over the **Topic management** option, and then select **Go to
-    another topic** and select **End of conversation**. This will
-    redirect to a topic dedicated to ending a chat session, asking of
-    the question has been answered and suggesting to fill a customer
-    satisfaction survey.
-
-이 데모 시나리오에서 고객의 대화를 종료합니다. 작성 캔버스 내의 메시지
+2.  이 데모 시나리오에서 고객의 대화를 종료합니다. 작성 캔버스 내의 메시지
 노드 아래에서 + 버튼을 선택합니다. 주제 관리 옵션 위로 마우스를 가져간
 다음 다른 주제로 이동을 선택하고 대화 종료를 선택합니다. 이는 대화
 세션을 종료하는 전용 주제로 리디렉션되어 질문이 해결되었는지 확인하고
 고객 만족도 설문조사를 작성하도록 제안합니다.\
-\
-![A screenshot of a chat Description automatically
-generated](./media/image23.png){width="3.3464566929133857in"
-height="3.9254615048118984in"}
 
-+------+---------------------------------------------------------------+
-| ![Li | **Pro tip:** It is a best practice to end discrete dialog     |
-| ghts | paths with the End of Conversation topic. That way, the       |
-| On   | end-user can confirm their question was addressed. When a     |
-| out  | user confirms, a customer satisfaction (CSAT) survey is       |
-| line | displayed. Resolution rates and CSAT scores are both          |
-| ](./ | displayed in the copilot analytics.                           |
-| outp |                                                               |
-| ut/l | Pro tip: 개별 대화 경로를 대화 종료 주제로 끝내는 것이 모범   |
-| ab1. | 사례입니다. 이를 통해 최종 사용자는 질문이 해결되었는지       |
-| docx | 확인할 수 있습니다. 사용자가 확인하면 고객 만족도(CSAT)       |
-| /med | 설문조사가 표시됩니다. 해결률 및 CSAT 점수는 모두 코파일럿    |
-| ia/i | 분석에 표시됩니다.                                            |
-| mage |                                                               |
-| 4.sv |                                                               |
-| g){w |                                                               |
-| idth |                                                               |
-| ="0. |                                                               |
-| 4724 |                                                               |
-| 4094 |                                                               |
-| 4881 |                                                               |
-| 8897 |                                                               |
-| 6in" |                                                               |
-| hei  |                                                               |
-| ght= |                                                               |
-| "0.4 |                                                               |
-| 7244 |                                                               |
-| 0944 |                                                               |
-| 8818 |                                                               |
-| 8976 |                                                               |
-| in"} |                                                               |
-+======+===============================================================+
-+------+---------------------------------------------------------------+
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image23.png">
 
-3.  Then, within the top right hand corner of the screen, select the
-    **Save** button.
+** Pro tip :** 개별 대화 경로를 대화 종료 주제로 끝내는 것이 모범 사례입니다. 이를 통해 최종 사용자는 질문이 해결되었는지  확인할 수 있습니다. 사용자가 확인하면 고객 만족도(CSAT) 설문조사가 표시됩니다. 해결률 및 CSAT 점수는 모두 코파일럿    분석에 표시됩니다.  
 
-그런 다음 화면 오른쪽 상단에서 저장 버튼을 선택합니다.
+3.  그런 다음 화면 오른쪽 상단에서 저장 버튼을 선택합니다.
 
-4.  Use the **Test** pane to validate that your bot behaves as
-    expected.\
-    Make sure you **Refresh** before doing a new test.
-
-테스트 창을 사용하여 봇이 예상대로 작동하는지 확인합니다. 새로운
+4.  테스트 창을 사용하여 봇이 예상대로 작동하는지 확인합니다. 새로운
 테스트를 하기 전에 새로고침을 꼭 하세요.
 
-+----+----+------------------------------------------------------+----+
-|    | ![ | I\'d like to check the status of my order please     |    |
-|    | Op |                                                      |    |
-|    | en | \"주문 상태를 확인하고 싶습니다\"                    |    |
-|    | q  |                                                      |    |
-|    | uo |                                                      |    |
-|    | ta |                                                      |    |
-|    | ti |                                                      |    |
-|    | on |                                                      |    |
-|    | ma |                                                      |    |
-|    | rk |                                                      |    |
-|    | ou |                                                      |    |
-|    | tl |                                                      |    |
-|    | in |                                                      |    |
-|    | e] |                                                      |    |
-|    | (. |                                                      |    |
-|    | /o |                                                      |    |
-|    | ut |                                                      |    |
-|    | pu |                                                      |    |
-|    | t/ |                                                      |    |
-|    | la |                                                      |    |
-|    | b1 |                                                      |    |
-|    | .d |                                                      |    |
-|    | oc |                                                      |    |
-|    | x/ |                                                      |    |
-|    | me |                                                      |    |
-|    | di |                                                      |    |
-|    | a/ |                                                      |    |
-|    | im |                                                      |    |
-|    | ag |                                                      |    |
-|    | e8 |                                                      |    |
-|    | .s |                                                      |    |
-|    | vg |                                                      |    |
-|    | ){ |                                                      |    |
-|    | wi |                                                      |    |
-|    | dt |                                                      |    |
-|    | h= |                                                      |    |
-|    | "0 |                                                      |    |
-|    | .4 |                                                      |    |
-|    | 69 |                                                      |    |
-|    | 73 |                                                      |    |
-|    | 64 |                                                      |    |
-|    | 39 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 51 |                                                      |    |
-|    | 00 |                                                      |    |
-|    | 6i |                                                      |    |
-|    | n" |                                                      |    |
-|    | he |                                                      |    |
-|    | ig |                                                      |    |
-|    | ht |                                                      |    |
-|    | =" |                                                      |    |
-|    | 0. |                                                      |    |
-|    | 38 |                                                      |    |
-|    | 02 |                                                      |    |
-|    | 24 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 07 |                                                      |    |
-|    | 26 |                                                      |    |
-|    | 15 |                                                      |    |
-|    | 92 |                                                      |    |
-|    | in |                                                      |    |
-|    | "} |                                                      |    |
-+====+====+======================================================+====+
-+----+----+------------------------------------------------------+----+
+```
+I\'d like to check the status of my order please.
+```
+```
+주문 상태를 확인하고 싶습니다.
+```
 
-+------+---------------------------------------------------------------+
-| ![Li | **Pro tip:** Trigger phrases don't need to be an exact match  |
-| ghts | of all the utterances a user might say.                       |
-| On   |                                                               |
-| out  | Pro tip: 트리거 구문은 사용자가 말할 수 있는 모든 발화를      |
-| line | 정확하게 일치시킬 필요는 없습니다.                            |
-| ](./ |                                                               |
-| outp |                                                               |
-| ut/l |                                                               |
-| ab1. |                                                               |
-| docx |                                                               |
-| /med |                                                               |
-| ia/i |                                                               |
-| mage |                                                               |
-| 4.sv |                                                               |
-| g){w |                                                               |
-| idth |                                                               |
-| ="0. |                                                               |
-| 4724 |                                                               |
-| 4094 |                                                               |
-| 4881 |                                                               |
-| 8897 |                                                               |
-| 6in" |                                                               |
-| hei  |                                                               |
-| ght= |                                                               |
-| "0.4 |                                                               |
-| 7244 |                                                               |
-| 0944 |                                                               |
-| 8818 |                                                               |
-| 8976 |                                                               |
-| in"} |                                                               |
-+======+===============================================================+
-+------+---------------------------------------------------------------+
+**Pro tip :** 트리거 구문은 사용자가 말할 수 있는 모든 발화를   정확하게 일치시킬 필요는 없습니다.      
 
-### Task 4: Use Copilot to create a topic 작업 4: 코파일럿을 사용하여 주제 만들기
-
-Creating topics in Microsoft Copilot Studio is more effortless than
-before. Now, you can create a topic in Microsoft Copilot Studio by using
-natural language to describe what you want the topic to do. With the
-**Create from description with Copilot** feature, you can automatically
-build a topic, reducing some manual steps that you experienced from the
-first task in this unit. In this task, you\'ll learn how simple and
-quick creating a topic with Copilot can be.
+### Task 4: 코파일럿을 사용하여 Topic 만들기
 
 Microsoft Copilot Studio에서 주제를 만드는 작업이 이전보다 더
 쉬워졌습니다. 이제 주제가 해야 할 일을 자연어로 설명하여 Microsoft
@@ -747,329 +479,73 @@ Copilot Studio에서 주제를 만들 수 있습니다. 설명으로부터 만�
 작업에서는 Copilot을 사용하여 주제를 얼마나 간단하고 빠르게 만들 수
 있는지 학습합니다.
 
-1.  Select **Topics** from the navigation pane to the left of the
-    screen.
+1.  화면 왼쪽의 탐색 창에서 주제를 선택합니다.
 
-화면 왼쪽의 탐색 창에서 주제를 선택합니다.
-
-2.  Select the **+ Create** drop down and choose **Topic** and then
-    **Create from description with Copilot**. A new window appears,
-    asking you to **Name** your topic and enter a description in the
-    **Create a topic to...** space.
-
-만들기 드롭다운을 선택하고 주제를 선택한 다음 Copilot으로 설명에서
+2.  만들기 드롭다운을 선택하고 주제를 선택한 다음 Copilot으로 설명에서
 만들기를 선택합니다. 주제의 이름을 입력하고 설명을 입력하라는 새 창이
-나타납니다.\
-\
-![A screenshot of a computer Description automatically
-generated](./media/image24.png){width="5.708661417322834in"
-height="1.7363057742782153in"}
+나타납니다.
 
-3.  Enter Support Ticket in the **Name** your topic field.
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image24.png">
 
-주제 이름 필드에 \"지원 티켓\"을 입력합니다.
+3.  주제 이름 필드에 \"지원 티켓\"을 입력합니다.
 
-4.  In the **Create a topic to** space, enter the description of what
-    your topic should do.
+4. \"설명을 입력하세요\" 공간에 주제의 목적을 설명하는 내용을 입력합니다.
 
-\"설명을 입력하세요\" 공간에 주제의 목적을 설명하는 내용을 입력합니다.
+```
+Create a support ticket, including a title, severity (high / medium / low), description and an email address to send update notifications to. Define variables following this naming pattern: Topic.TicketTitle.
+```
+```
+제목, 심각도(높음/중간/낮음), 설명 및 업데이트 알림을 보낼 이메일 주소를 포함한 지원 티켓을 만듭니다. Topic.TicketTitle이라는 명명 패턴에 따라 변수를 정의합니다.
+```
 
-+----+----+------------------------------------------------------+----+
-|    | ![ | Create a support ticket, including a title, severity |    |
-|    | Op | (high / medium / low), description and an email      |    |
-|    | en | address to send update notifications to. Define      |    |
-|    | q  | variables following this naming pattern:             |    |
-|    | uo | Topic.TicketTitle.                                   |    |
-|    | ta |                                                      |    |
-|    | ti | 지원 티켓을 생성합니다. 여기에는 제목,               |    |
-|    | on | 심각도(높음/중간/낮음), 설명 및 업데이트 알림을 보낼 |    |
-|    | ma | 이메일 주소가 포함됩니다. 이 명명 패턴을 따르는      |    |
-|    | rk | 변수를 정의합니다: Topic.TicketTitle.                |    |
-|    | ou |                                                      |    |
-|    | tl |                                                      |    |
-|    | in |                                                      |    |
-|    | e] |                                                      |    |
-|    | (. |                                                      |    |
-|    | /o |                                                      |    |
-|    | ut |                                                      |    |
-|    | pu |                                                      |    |
-|    | t/ |                                                      |    |
-|    | la |                                                      |    |
-|    | b1 |                                                      |    |
-|    | .d |                                                      |    |
-|    | oc |                                                      |    |
-|    | x/ |                                                      |    |
-|    | me |                                                      |    |
-|    | di |                                                      |    |
-|    | a/ |                                                      |    |
-|    | im |                                                      |    |
-|    | ag |                                                      |    |
-|    | e8 |                                                      |    |
-|    | .s |                                                      |    |
-|    | vg |                                                      |    |
-|    | ){ |                                                      |    |
-|    | wi |                                                      |    |
-|    | dt |                                                      |    |
-|    | h= |                                                      |    |
-|    | "0 |                                                      |    |
-|    | .4 |                                                      |    |
-|    | 69 |                                                      |    |
-|    | 73 |                                                      |    |
-|    | 64 |                                                      |    |
-|    | 39 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 51 |                                                      |    |
-|    | 00 |                                                      |    |
-|    | 6i |                                                      |    |
-|    | n" |                                                      |    |
-|    | he |                                                      |    |
-|    | ig |                                                      |    |
-|    | ht |                                                      |    |
-|    | =" |                                                      |    |
-|    | 0. |                                                      |    |
-|    | 38 |                                                      |    |
-|    | 02 |                                                      |    |
-|    | 24 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 07 |                                                      |    |
-|    | 26 |                                                      |    |
-|    | 15 |                                                      |    |
-|    | 92 |                                                      |    |
-|    | in |                                                      |    |
-|    | "} |                                                      |    |
-+====+====+======================================================+====+
-+----+----+------------------------------------------------------+----+
+5.  생성을 선택합니다.
 
-5.  Select **Create**.
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image25.png">
 
-생성을 선택합니다.
-
-![A screenshot of a computer Description automatically
-generated](./media/image25.png){width="6.653543307086614in"
-height="3.6320516185476817in"}
-
-> Copilot creates your topic, including the trigger phrases, question
-> nodes, entity selection, variable naming, and message node
-> confirmation.
->
 > Copilot은 트리거 구문, 질문 노드, 엔터티 선택, 변수 이름 지정 및
 > 메시지 노드 확인을 포함한 주제를 생성합니다.
 
-6.  Select the **Copilot** button in the upper part of the authoring
-    canvas (if the **Edit with Copilot** panel isn\'t open already).
-    Within the **Edit with Copilot** panel, in the field **What do you
-    want to do?** Add additional instructions and then, select
-    **Update.**
-
-작성 캔버스 상단의 Copilot 버튼을 선택합니다(이미 Copilot 패널이 열려
+6.  작성 캔버스 상단의 Copilot 버튼을 선택합니다(이미 Copilot 패널이 열려
 있지 않은 경우). Copilot 패널의 \"무엇을 하고 싶으신가요?\" 필드에 추가
 지침을 입력한 다음 업데이트를 선택합니다.
+```
+Before the last message, ask a question to find out the user's preferred contact method, choosing from email, phone or SMS.
+```
 
-+----+----+------------------------------------------------------+----+
-|    | ![ | Before the last message, ask a question to find out  |    |
-|    | Op | the user\'s preferred contact method, choosing from  |    |
-|    | en | email, phone or SMS.                                 |    |
-|    | q  |                                                      |    |
-|    | uo | 마지막 메시지 전에 이메일, 전화 또는 SMS 중에서      |    |
-|    | ta | 사용자가 선호하는 연락 방법을 묻는 질문을            |    |
-|    | ti | 추가합니다.                                          |    |
-|    | on |                                                      |    |
-|    | ma |                                                      |    |
-|    | rk |                                                      |    |
-|    | ou |                                                      |    |
-|    | tl |                                                      |    |
-|    | in |                                                      |    |
-|    | e] |                                                      |    |
-|    | (. |                                                      |    |
-|    | /o |                                                      |    |
-|    | ut |                                                      |    |
-|    | pu |                                                      |    |
-|    | t/ |                                                      |    |
-|    | la |                                                      |    |
-|    | b1 |                                                      |    |
-|    | .d |                                                      |    |
-|    | oc |                                                      |    |
-|    | x/ |                                                      |    |
-|    | me |                                                      |    |
-|    | di |                                                      |    |
-|    | a/ |                                                      |    |
-|    | im |                                                      |    |
-|    | ag |                                                      |    |
-|    | e8 |                                                      |    |
-|    | .s |                                                      |    |
-|    | vg |                                                      |    |
-|    | ){ |                                                      |    |
-|    | wi |                                                      |    |
-|    | dt |                                                      |    |
-|    | h= |                                                      |    |
-|    | "0 |                                                      |    |
-|    | .4 |                                                      |    |
-|    | 69 |                                                      |    |
-|    | 73 |                                                      |    |
-|    | 64 |                                                      |    |
-|    | 39 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 51 |                                                      |    |
-|    | 00 |                                                      |    |
-|    | 6i |                                                      |    |
-|    | n" |                                                      |    |
-|    | he |                                                      |    |
-|    | ig |                                                      |    |
-|    | ht |                                                      |    |
-|    | =" |                                                      |    |
-|    | 0. |                                                      |    |
-|    | 38 |                                                      |    |
-|    | 02 |                                                      |    |
-|    | 24 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 07 |                                                      |    |
-|    | 26 |                                                      |    |
-|    | 15 |                                                      |    |
-|    | 92 |                                                      |    |
-|    | in |                                                      |    |
-|    | "} |                                                      |    |
-+====+====+======================================================+====+
-+----+----+------------------------------------------------------+----+
+```
+마지막 메시지를 보내기 전에 질문을 하여 이메일, 전화 또는 SMS 중에서 선택하여 사용자가 선호하는 연락 방법을 알아보세요.
+```
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image26.png){width="4.330708661417323in"
-> height="3.0432064741907263in"}
->
-> Copilot automatically adds a question node, which both asks the
-> customer for their contact method, and stores their choice in a
-> variable.
->
-> Copilot은 고객에게 연락 방법을 묻고 선택을 변수에 저장하는 질문 노드를
-> 자동으로 추가합니다.
->
-> ![A screenshot of a phone application Description automatically
-> generated](./media/image27.png){width="2.952755905511811in"
-> height="4.6684317585301836in"}
+ <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image26.png">
 
-+------+---------------------------------------------------------------+
-| ![Li | Note: you can skip this step if you run into the below error: |
-| ghts |                                                               |
-| On   | 참고: 아래 오류가 발생하면 이 단계를 건너뛸 수 있습니다.      |
-| out  |                                                               |
-| line | ![](./out                                                     |
-| ](./ | put/lab1.docx/media/image28.png){width="2.9163024934383204in" |
-| outp | height="0.49993766404199474in"}                               |
-| ut/l |                                                               |
-| ab1. |                                                               |
-| docx |                                                               |
-| /med |                                                               |
-| ia/i |                                                               |
-| mage |                                                               |
-| 4.sv |                                                               |
-| g){w |                                                               |
-| idth |                                                               |
-| ="0. |                                                               |
-| 4724 |                                                               |
-| 4094 |                                                               |
-| 4881 |                                                               |
-| 8897 |                                                               |
-| 6in" |                                                               |
-| hei  |                                                               |
-| ght= |                                                               |
-| "0.4 |                                                               |
-| 7244 |                                                               |
-| 0944 |                                                               |
-| 8818 |                                                               |
-| 8976 |                                                               |
-| in"} |                                                               |
-+======+===============================================================+
-+------+---------------------------------------------------------------+
+ Copilot은 고객에게 연락 방법을 묻고 선택을 변수에 저장하는 질문 노드를
+ 자동으로 추가합니다.
 
-The Copilot feature in Microsoft Copilot Studio drastically reduces
-authoring time, allowing you to create new topics and edit topics by
-using natural language. Additionally, the **Edit with Copilot** panel
-shows what updates have been created, and it provides suggestions for
-what you can update in your topic.
+ <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image27.png">
+
+**참고 :** 아래 오류가 발생하면 이 단계를 건너뛸 수 있습니다. 
+ <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image28.png">
+
 
 Microsoft Copilot Studio의 Copilot 기능은 작성 시간을 대폭 단축하여
 자연어를 사용해 새 주제를 만들고 편집할 수 있습니다. 또한 Copilot 패널은
 생성된 업데이트를 보여주고 주제에서 업데이트할 수 있는 제안을
 제공합니다.
 
-7.  **Save** your new topic.
+7.  새 주제를 저장합니다.
 
-새 주제를 저장합니다.
-
-8.  ![](./media/image29.png){width="0.16875in"
-    height="0.15694444444444444in"}Use the **Test pane** to validate
-    that your bot behaves as expected.\
-    Don't hesitate to use the refresh icon to start from a new
-    conversation and not resume an old one.
-
+8.   <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image29.png">
 테스트 창을 사용하여 봇이 예상대로 작동하는지 확인합니다. 새 대화를
 시작하고 이전 대화를 다시 시작하지 않으려면 새로고침 아이콘을 사용하는
 것을 주저하지 마세요.
 
-+----+----+------------------------------------------------------+----+
-|    | ![ | I have an issue with my laptop and need to log a     |    |
-|    | Op | support ticket                                       |    |
-|    | en |                                                      |    |
-|    | q  | \"내 노트북에 문제가 있어 지원 티켓을 등록해야       |    |
-|    | uo | 합니다\"                                             |    |
-|    | ta |                                                      |    |
-|    | ti |                                                      |    |
-|    | on |                                                      |    |
-|    | ma |                                                      |    |
-|    | rk |                                                      |    |
-|    | ou |                                                      |    |
-|    | tl |                                                      |    |
-|    | in |                                                      |    |
-|    | e] |                                                      |    |
-|    | (. |                                                      |    |
-|    | /o |                                                      |    |
-|    | ut |                                                      |    |
-|    | pu |                                                      |    |
-|    | t/ |                                                      |    |
-|    | la |                                                      |    |
-|    | b1 |                                                      |    |
-|    | .d |                                                      |    |
-|    | oc |                                                      |    |
-|    | x/ |                                                      |    |
-|    | me |                                                      |    |
-|    | di |                                                      |    |
-|    | a/ |                                                      |    |
-|    | im |                                                      |    |
-|    | ag |                                                      |    |
-|    | e8 |                                                      |    |
-|    | .s |                                                      |    |
-|    | vg |                                                      |    |
-|    | ){ |                                                      |    |
-|    | wi |                                                      |    |
-|    | dt |                                                      |    |
-|    | h= |                                                      |    |
-|    | "0 |                                                      |    |
-|    | .4 |                                                      |    |
-|    | 69 |                                                      |    |
-|    | 73 |                                                      |    |
-|    | 64 |                                                      |    |
-|    | 39 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 51 |                                                      |    |
-|    | 00 |                                                      |    |
-|    | 6i |                                                      |    |
-|    | n" |                                                      |    |
-|    | he |                                                      |    |
-|    | ig |                                                      |    |
-|    | ht |                                                      |    |
-|    | =" |                                                      |    |
-|    | 0. |                                                      |    |
-|    | 38 |                                                      |    |
-|    | 02 |                                                      |    |
-|    | 24 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 07 |                                                      |    |
-|    | 26 |                                                      |    |
-|    | 15 |                                                      |    |
-|    | 92 |                                                      |    |
-|    | in |                                                      |    |
-|    | "} |                                                      |    |
-+====+====+======================================================+====+
-+----+----+------------------------------------------------------+----+
+```
+I have an issue with my laptop and need to log a support ticket
+```
+```
+노트북에 문제가 있어 지원 티켓을 기록해야 합니다.
+```
+
 
 ## 연습 5: 테스트를 위해 데모 웹사이트에 코파일럿 게시하기 
 
@@ -1078,103 +554,35 @@ Microsoft Copilot Studio의 Copilot 기능은 작성 시간을 대폭 단축하�
 이 데모의 목적을 위해 봇을 인증 없이 설정하여 데모 사이트 링크를 가진
 모든 사람이 테스트할 수 있도록 합니다. 이를 위해 다음 단계를 따릅니다:
 
-1.  Go to **Settings** in the top-right navigation
+1.  오른쪽 상단 탐색에서 설정으로 이동합니다.
 
-오른쪽 상단 탐색에서 설정으로 이동합니다.
+2.  보안으로 이동합니다.
 
-2.  Go to **Security**
+3.  인증을 선택합니다.
 
-보안으로 이동합니다.
+4.  열리는 패널에서 인증 안 함을 선택하고 저장을 선택합니다.
 
-3.  Select **Authentication**
+5.  열리는 이 구성을 저장하시겠습니까? 패널에서 저장을 선택합니다.
 
-인증을 선택합니다.
-
-4.  Select **No authentication** in the panel that opens and select
-    **Save**
-
-> 열리는 패널에서 인증 안 함을 선택하고 저장을 선택합니다.
-
-5.  Select **Save** in the **Save this configuration?** Panel that opens
-
-열리는 이 구성을 저장하시겠습니까? 패널에서 저장을 선택합니다.
-
-![A screenshot of a computer Description automatically
-generated](./media/image30.png){width="4.502120516185477in"
-height="2.108559711286089in"}
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image30.png">
 
 ### Task 2: Publish your copilot 작업 2: 코파일럿 게시하기
-
-Microsoft Copilot Studio provides a demo website so that you can invite
-anyone to test your copilot by sending them the URL. This demo website
-is useful for gathering feedback to improve your content before you
-activate the copilot for your real end-users.
 
 Microsoft Copilot Studio는 데모 웹사이트를 제공하므로 URL을 보내서
 누구나 코파일럿을 테스트하도록 초대할 수 있습니다. 이 데모 웹사이트는
 코파일럿을 실제 최종 사용자에게 활성화하기 전에 콘텐츠를 개선하기 위한
 피드백을 수집하는 데 유용합니다.
 
-1.  In Microsoft Copilot Studio, go to the **Channels** tab
+1.  Microsoft Copilot Studio에서 채널 탭으로 이동합니다.
 
-Microsoft Copilot Studio에서 채널 탭으로 이동합니다.
-
-2.  Select **Publish** to push the latest topics updates to the demo
-    website. You\'ll need to complete this action before you use the
-    demo website the first time and after you make changes to the topics
-    that you want people to test on the demo website.
-
-게시를 선택하여 최신 주제 업데이트를 데모 웹사이트에 푸시합니다. 데모
+2.  게시를 선택하여 최신 주제 업데이트를 데모 웹사이트에 푸시합니다. 데모
 웹사이트를 처음 사용하기 전에 그리고 데모 웹사이트에서 사람들이
 테스트하기를 원하는 주제에 변경 사항을 적용한 후 이 작업을 완료해야
 합니다.
 
-![A screenshot of a computer Description automatically
-generated](./media/image31.png){width="6.692913385826771in"
-height="3.1346073928258966in"}
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image31.png">
 
-+------+---------------------------------------------------------------+
-| ![Li | **Pro tips:**                                                 |
-| ghts |                                                               |
-| On   | -   When you\'ve created your real copilot, you\'ll publish   |
-| out  |     whenever you want to make updated topics available in     |
-| line |     your deployed channels.                                   |
-| ](./ |                                                               |
-| outp | Pro tips:                                                     |
-| ut/l |                                                               |
-| ab1. | 실제 코파일럿을 만들었을 때 배포된 채널에서 업데이트된 주제를 |
-| docx | 사용할 수 있도록 언제든지 게시할 수 있습니다.                 |
-| /med |                                                               |
-| ia/i |                                                               |
-| mage |                                                               |
-| 4.sv |                                                               |
-| g){w |                                                               |
-| idth |                                                               |
-| ="0. |                                                               |
-| 4724 |                                                               |
-| 4094 |                                                               |
-| 4881 |                                                               |
-| 8897 |                                                               |
-| 6in" |                                                               |
-| hei  |                                                               |
-| ght= |                                                               |
-| "0.4 |                                                               |
-| 7244 |                                                               |
-| 0944 |                                                               |
-| 8818 |                                                               |
-| 8976 |                                                               |
-| in"} |                                                               |
-+======+===============================================================+
-+------+---------------------------------------------------------------+
-
--   The publishing process checks for errors in the topics whose Status
-    is On.
-
--   Publication should take only a few minutes.
-
--   After you\'ve selected the Publish option, a green banner
-    notification will show at the top of the screen when publishing is
-    complete.
+**Pro tips :** 실제 코파일럿을 만들었을 때 배포된 채널에서 업데이트된 주제를 사용할 수 있도록 언제든지 게시할 수 있습니다.  
 
 -   게시 프로세스는 상태가 켜짐인 주제의 오류를 확인합니다.
 
@@ -1183,196 +591,13 @@ height="3.1346073928258966in"}
 
 -   다음 스크린샷에 표시된 데모 웹사이트 링크를 선택합니다.
 
-3.  Select the link for the **demo website**, as shown in the following
-    screenshot.
+3.  다음 스크린샷에 표시된 데모 웹사이트 링크를 선택합니다.
 
-다음 스크린샷에 표시된 데모 웹사이트 링크를 선택합니다.\
-\
-![A screenshot of a computer Description automatically
-generated](./media/image32.png){width="6.6929155730533685in"
-height="3.134615048118985in"}
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image32.png">
 
-4.  When the demo site window opens, you can interact with the copilot
-    by typing at the Type your message prompt or by selecting a starter
-    phrase from the provided options.
+4.  데모 사이트 창이 열리면 메시지 입력 프롬프트에 입력하거나 제공된
+옵션에서 시작 구문을 선택하여 코파일럿과 상호 작용할 수 있습니다.
 
-데모 사이트 창이 열리면 메시지 입력 프롬프트에 입력하거나 제공된
-옵션에서 시작 구문을 선택하여 코파일럿과 상호 작용할 수 있습니다.\
-\
-![A screenshot of a chatbot Description automatically
-generated](./media/image33.png){width="6.225893482064742in"
-height="3.660971128608924in"}
-
-Congratulations, you\'ve now built and published your first copilot!
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image33.png">
 
 축하합니다! 이제 첫 번째 코파일럿을 만들고 게시했습니다!
-
-## 이용 약관
-
-> 이 문서를 전부 또는 일부 사용하는 경우, 다음 약관에 동의하는 것으로
-> 간주됩니다:
->
-> **[Notice]{.underline} 공지**
->
-> Information and views expressed in this document, including (without
-> limitation) URL and other Internet Web site references, may change
-> without notice. Examples depicted herein, if any, are provided for
-> illustration only and are fictitious. No real association or
-> connection is intended or should be inferred. This document does not
-> provide you with any legal rights to any intellectual property in any
-> Microsoft product.
->
-> 이 문서에 표현된 정보와 견해(이를 포함하되 이에 국한되지 않는 URL 및
-> 기타 인터넷 웹사이트 참조)는 사전 예고 없이 변경될 수 있습니다. 여기에
-> 제시된 예시가 있다면, 이는 단지 설명을 위한 것이며 허구입니다. 실제
-> 연관성이나 연결은 의도되지 않았으며, 추론해서도 안 됩니다. 이 문서는
-> Microsoft 제품의 지적 재산권에 대한 법적 권리를 제공하지 않습니다.
-
-### **[Use Limitations]{.underline} 사용 제한**
-
-> Copying or reproduction, in whole or in part, of this document to any
-> other server or location for further reproduction or redistribution is
-> expressly prohibited. Microsoft provides you with this document for
-> purposes of obtaining your suggestions, comments, input, ideas, or
-> know-how, in any form, (\"Feedback\") and to provide you with a
-> learning experience. You may use this document only to evaluate its
-> content and provide feedback to Microsoft. You may not use this
-> document for any other purpose. You may not modify, copy, distribute,
-> transmit, display, perform, reproduce, publish, license, create
-> derivative works from, transfer, or sell this document or any portion
-> thereof. You may copy and use this document for your internal,
-> reference purposes only.
->
-> 이 문서를 다른 서버나 위치로 복제 또는 재배포하기 위해 전부 또는 일부
-> 복사하는 것은 명시적으로 금지되어 있습니다. Microsoft는 이 문서를
-> 귀하의 제안, 의견, 아이디어 또는 노하우(\"피드백\")를 얻기 위한
-> 목적으로 제공하며 학습 경험을 제공하기 위한 것입니다. 이 문서를
-> 평가하고 Microsoft에 피드백을 제공하는 목적 외에는 사용할 수 없습니다.
-> 이 문서를 다른 목적으로 사용할 수 없습니다. 이 문서를 수정, 복사,
-> 배포, 전송, 표시, 수행, 복제, 출판, 라이선스, 파생 작품 작성, 전송
-> 또는 판매할 수 없습니다. 이 문서는 내부 참조 목적으로만 복사 및 사용할
-> 수 있습니다.
-
-### **[Feedback]{.underline}** 
-
-> If you give Microsoft any Feedback about this document or the subject
-> matter herein (including, without limitation, any technology,
-> features, functionality, and/or concepts), you give to Microsoft,
-> without charge, the right to use, share, and freely commercialize
-> Feedback in any way and for any purpose. You also give third parties,
-> without charge, the right to use, or interface with, any Microsoft
-> products or services that include the Feedback. You represent and
-> warrant that you own or otherwise control all rights to such Feedback
-> and that no such Feedback is subject to any third-party rights.
->
-> 귀하가 이 문서 또는 여기에 포함된 주제와 관련하여 Microsoft에 제공하는
-> 피드백(기술, 기능, 기능 및/또는 개념 포함)에 대해 Microsoft는 무료로
-> 해당 피드백을 어떠한 방식으로든 그리고 어떠한 목적으로든 사용, 공유 및
-> 상업화할 수 있는 권리를 가집니다. 또한 제3자에게 무료로 해당 피드백이
-> 포함된 Microsoft 제품 또는 서비스와 인터페이스할 수 있는 권리를
-> 부여합니다. 귀하는 그러한 피드백에 대한 모든 권리를 소유하거나 달리
-> 통제하며, 그러한 피드백이 제3자의 권리에 속하지 않는다는 것을 진술하고
-> 보증합니다.
-
-### **[DISCLAIMERS]{.underline} 면책 조항**
-
-> CERTAIN SOFTWARE, TECHNOLOGY, PRODUCTS, FEATURES, AND FUNCTIONALITY
-> (COLLECTIVELY \"CONCEPTS\"),
->
-> INCLUDING POTENTIAL NEW CONCEPTS, REFERENCED IN THIS DOCUMENT ARE IN A
-> SIMULATED ENVIRONMENT
->
-> WITHOUT COMPLEX SET-UP OR INSTALLATION AND ARE INTENDED FOR FEEDBACK
-> AND TRAINING PURPOSES
->
-> ONLY. THE CONCEPTS REPRESENTED IN THIS DOCUMENT MAY NOT REPRESENT FULL
-> FEATURE CONCEPTS AND MAY
->
-> NOT WORK THE WAY A FINAL VERSION MAY WORK. MICROSOFT ALSO MAY NOT
-> RELEASE A FINAL VERSION OF SUCH
->
-> CONCEPTS. YOUR EXPERIENCE WITH USING SUCH CONCEPTS IN A PHYSICAL
-> ENVIRONMENT MAY ALSO BE DIFFERENT.
->
-> THIS DOCUMENT, AND THE CONCEPTS AND TRAINING PROVIDED HEREIN, IS
-> PROVIDED "AS IS", WITHOUT WARRANTY
->
-> OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
-> (WITHOUT LIMITATION) THE WARRANTIES OF
->
-> MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
-> NONINFRINGEMENT. MICROSOFT DOES NOT
->
-> MAKE ANY ASSURANCES OR REPRESENTATIONS WITH REGARD TO THE ACCURACY OF
-> THE RESULTS, THE OUTPUT THAT DERIVES FROM USE OF THIS DOCUMENT OR THE
-> CONCEPTS, OR THE SUITABILITY OF THE CONCEPTS OR INFORMATION CONTAINED
-> IN THIS DOCUMENT FOR ANY PURPOSE.
->
-> MICROSOFT COPILOT STUDIO (1) IS NOT INTENDED OR MADE AVAILABLE AS A
-> MEDICAL DEVICE FOR THE
->
-> DIAGNOSIS OF DISEASE OR OTHER CONDITIONS, OR IN THE CURE, MITIGATION,
-> TREATMENT OR PREVENTION OF
->
-> DISEASE, OR OTHERWISE TO BE USED AS A COMPONENT OF ANY CLINICAL
-> OFFERING OR PRODUCT, AND NO LICENSE
->
-> OR RIGHT IS GRANTED TO USE MICROSOFT COPILOT STUDIO FOR SUCH PURPOSES,
-> (2) IS NOT DESIGNED OR
->
-> INTENDED TO BE A SUBSTITUTE FOR PROFESSIONAL MEDICAL ADVICE,
-> DIAGNOSIS, TREATMENT, OR JUDGMENT AND SHOULD NOT BE USED AS A
-> SUBSTITUTE FOR, OR TO REPLACE, PROFESSIONAL MEDICAL ADVICE, DIAGNOSIS,
->
-> TREATMENT, OR JUDGMENT, AND (3) SHOULD NOT BE USED FOR EMERGENCIES AND
-> DOES NOT SUPPORT EMERGENCY
->
-> CALLS. ANY CHATBOT YOU CREATE USING MICROSOFT COPILOT STUDIO IS YOUR
-> OWN PRODUCT OR SERVICE,
->
-> SEPARATE AND APART FROM MICROSOFT COPILOT STUDIO. YOU ARE SOLELY
-> RESPONSIBLE FOR THE DESIGN,
->
-> DEVELOPMENT, AND IMPLEMENTATION OF YOUR CHATBOT (INCLUDING
-> INCORPORATION OF IT INTO ANY PRODUCT
->
-> OR SERVICE INTENDED FOR MEDICAL OR CLINICAL USE) AND FOR EXPLICITLY
-> PROVIDING END USERS WITH
->
-> APPROPRIATE WARNINGS AND DISCLAIMERS PERTAINING TO USE OF YOUR
-> CHATBOT. YOU ARE SOLELY RESPONSIBLE
->
-> FOR ANY PERSONAL INJURY OR DEATH THAT MAY OCCUR AS A RESULT OF YOUR
-> CHATBOT OR YOUR USE OF
->
-> MICROSOFT COPILOT STUDIO IN CONNECTION WITH YOUR CHATBOT, INCLUDING
-> (WITHOUT LIMITATION) ANY SUCH INJURIES TO END USERS.
-
-이 문서에서 참조된 특정 소프트웨어, 기술, 제품, 기능 및 기능(총칭하여
-\"개념\")은 복잡한 설정 또는 설치 없이 시뮬레이션된 환경에서 제공되며
-피드백 및 교육 목적으로만 사용됩니다. 이 문서에 제시된 개념은 완전한
-기능의 개념을 나타내지 않을 수 있으며, 최종 버전이 작동하는 방식과 다를
-수 있습니다. 또한 Microsoft는 이러한 개념의 최종 버전을 출시하지 않을 수
-있습니다. 실제 환경에서 이러한 개념을 사용할 때의 경험도 다를 수
-있습니다. 이 문서와 이 문서에서 제공되는 개념 및 교육은 명시적이든
-묵시적이든 또는 법적이든 상관없이 상품성, 특정 목적에 대한 적합성,
-소유권 및 비침해에 대한 보증을 포함하여 어떠한 종류의 보증 없이 \"있는
-그대로\" 제공됩니다. Microsoft는 이 문서 또는 개념을 사용한 결과,
-출력물의 정확성 또는 이 문서에 포함된 개념이나 정보의 적합성에 대해
-어떠한 보증이나 진술도 하지 않습니다.
-
-Microsoft Copilot Studio는 (1) 질병 또는 기타 상태의 진단, 치료, 경감,
-치료 또는 예방을 위한 의료 기기로 의도되거나 제공되지 않으며, 임상 제공
-또는 제품의 구성 요소로 사용될 수 없으며, 그러한 용도로 Microsoft
-Copilot Studio를 사용할 수 있는 라이선스 또는 권리를 부여하지 않습니다.
-(2) 전문적인 의료 조언, 진단, 치료 또는 판단을 대체할 의도로 설계되거나
-제공되지 않으며, 전문적인 의료 조언, 진단, 치료 또는 판단을 대체하거나
-이를 대신하여 사용해서는 안 됩니다. (3) 긴급 상황에 사용되어서는 안
-되며, 긴급 호출을 지원하지 않습니다. Microsoft Copilot Studio를 사용하여
-만든 모든 챗봇은 Microsoft Copilot Studio와 별개이며 독립적인 귀하의
-제품 또는 서비스입니다. 귀하는 챗봇의 설계, 개발 및 구현(이를 의료 또는
-임상 용도로 사용하려는 제품 또는 서비스에 통합하는 경우 포함)에 전적으로
-책임이 있으며, 최종 사용자에게 챗봇 사용과 관련된 적절한 경고와 면책
-조항을 명시적으로 제공할 책임이 있습니다. 귀하의 챗봇 또는 Microsoft
-Copilot Studio와 관련하여 귀하의 챗봇 사용으로 인해 발생할 수 있는 모든
-개인 상해 또는 사망에 대한 책임은 전적으로 귀하에게 있습니다.
