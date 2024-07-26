@@ -1,37 +1,10 @@
-# Microsoft Copilot Studio 
-
-> 이 실습은 문서 말미의 이용 약관에 따릅니다.
-
-## 이 실습의 목표
-
-이 실습 후, 다음을 수행할 수 있습니다.          
-                                             
--   Microsoft Copilot Studio의 통합 작성 캔버스를 사용하여 새로운 맞춤형 코파일럿을 만듭니다. 
--   첫 번째 Topic을 만들고, 리치 텍스트 응답을  포함한 콘텐츠를 Topic에 추가합니다.
--   Microsoft Copilot Studio의 새로운 코파일럿 기능을 사용하여 AI로 Topic을 만듭니다. 
--   Microsoft Copilot Studio에서 봇을 테스트하는 방법을 학습합니다. 
--   데모 웹사이트에 봇을 게시합니다. 
 
 
-## 사전 준비
-
-> 일부 실습은 이전 실습에서 다룬 기능과 작업을 참조합니다. 실습은 대부분
-> Microsoft Copilot Studio 평가판에 액세스할 수 있으면 이전 모듈을
-> 완료하지 않아도 진행할 수 있도록 설계되었습니다. 그러나 제품의 기능과
-> 기능을 제대로 보여주기 위해 특정 모듈을 완료한 후에 일부 실습을
-> 시작하는 것이 좋습니다.
->
-> Lab 01: Microsoft Copilot Studio에서 첫 번째 코파일럿 만들기에는
-> 다음이 필요합니다:
->>   인터넷 액세스가 가능한 컴퓨터
->>  제공된 Microsoft 테넌트에 로그인할 수 있어야 합니다 (일부 회사는
-    사용자가 회사 테넌트에만 연결하도록 강제할 수 있습니다).
-
-## 연습 1: 코파일럿 만들기를 위해 로그인하기
+# 연습 1: 코파일럿 만들기를 위해 로그인하기
 
 > 이 연습에서는 제공된 자격 증명을 사용하여 Microsoft Copilot Studio 작성 환경에 로그인합니다.
 
-### 작업 1: 브라우저 환경 설정
+## 작업 1: 브라우저 환경 설정
 
 기존에 로그인한 경험과 충돌을 피하기 위해 다음 세 가지 옵션 중 하나를
 사용하여 이 실습을 수행할 수 있습니다.
@@ -49,7 +22,7 @@
 
 
 
-### 작업 2: Copilot Studio에 로그인하기
+## 작업 2: Copilot Studio에 로그인하기
 
 1.  aka.ms/CopilotStudioStart로 이동
 
@@ -65,7 +38,7 @@
 메시지가 표시됩니다. 값을 선택하거나 기본 옵션을 그대로 두고 시작하기를
 클릭할 수 있습니다.
 
-### 작업 3: 코파일럿 만들기
+## 작업 3: 코파일럿 만들기
 
 1.  Microsoft Copilot Studio 홈페이지에서 코파일럿을 설명하여 만듭니다.
 
@@ -129,13 +102,13 @@ Workshop\")에 저장합니다.
 3.	항상 자체 솔루션 및 게시자의 컨텍스트에서 copilot를 구성하여 원하는 게시자 접두사로 copilot를 만들고 쉽게 내보내고 다른 환경에 배포할 수 있도록 하는 것이 좋습니다.
 
 
-## 연습 2: 사용자 인터페이스 빠르게 둘러보기
+# 연습 2: 사용자 인터페이스 빠르게 둘러보기
 
 Microsoft Copilot Studio는 기본부터 고급 코파일럿을 쉽게 만들 수 있도록
 도와줍니다. 이 섹션에서는 Microsoft Copilot Studio의 주요 페이지를
 검토합니다.
 
-### Main interface 주요 인터페이스
+## Main interface 주요 인터페이스
 
 <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image13.png" width="800">
 
@@ -196,7 +169,7 @@ F.  **게시 :** 최신 버전의 코파일럿을 사용자에게 제공할 수 
 G.  **코파일럿 테스트 :** 테스트 창을 통해 저장할 필요 없이 즉시 코파일럿과
  사용자 정의를 테스트할 수 있습니다.
 
-### Settings interface 설정 인터페이스
+## Settings interface 설정 인터페이스
 
 <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image14.png" width="800">
 
@@ -239,7 +212,7 @@ G.  **코파일럿 테스트 :** 테스트 창을 통해 저장할 필요 없이
     의도 감지를 위한 기본 제공 자연어 이해 모델(NLU)을 효과적으로 대체할
     수 있으며, 엔터티 감지 및 추출도 대체할 수 있습니다.
 
-## 연습 3: 코파일럿 테스트하기
+# 연습 3: 코파일럿 테스트하기
 
 1. 화면 오른쪽 상단의 테스트를 선택하여 테스트 코파일럿 창을 표시합니다.
 
@@ -273,9 +246,9 @@ The Copilot will offer a greeting in the **Test Copilot** pane
 
 <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image18.png" width="800">
 
-## 연습 4: 첫 번째 주제 만들기
+# 연습 4: 첫 번째 주제 만들기
 
-### Task 1: Create a new topic manually 작업 1: 새 주제 수동으로 만들기
+## Task 1: Create a new topic manually 작업 1: 새 주제 수동으로 만들기
 
 첫 번째 작업에서는 다음 단계를 따라 새 주제를 수동으로 만듭니다:
 
@@ -318,7 +291,7 @@ has my order shipped
 
 7.  저장을 선택합니다.
 
-### Task 2: Review the topic user interface 작업 2: 주제 사용자 인터페이스 검토
+## Task 2: Review the topic user interface 작업 2: 주제 사용자 인터페이스 검토
 
 이제 첫 번째 주제를 만들었으므로(트리거 구문 외에는 콘텐츠 없음), 작성
 사용자 인터페이스(UI)를 탐색하여 친숙해질 수 있습니다. 
@@ -377,7 +350,7 @@ AI를 오케스트레이터로 사용할 때 자동으로 슬롯을 채울 수 �
 있으므로 이 제어를 사용하여 탐색할 수 있습니다. 포함된 제어에는 캔버스
 맵, 줌, 핸드, 선택 및 리셋이 있습니다.
 
-### Task 3: Add content to your topic 작업 3: 주제에 콘텐츠 추가
+## Task 3: Add content to your topic 작업 3: 주제에 콘텐츠 추가
 
 이 연습은 주제에 많은 양의 콘텐츠를 추가하는 방법을 다루지는 않습니다.
 대신, 하나의 질문 노드, 메시지 노드 및 주제 리디렉션을 추가하는 단계를
@@ -389,7 +362,7 @@ AI를 오케스트레이터로 사용할 때 자동으로 슬롯을 채울 수 �
 이 연습의 다음 섹션에서는 Microsoft Copilot Studio의 핵심 구성 요소를
 이해하고 주제를 만드는 데 필요한 기본 지식을 다룹니다.
 
-#### Fundamental knowledge: Question node 기본 지식: 질문 노드
+### Fundamental knowledge: Question node 기본 지식: 질문 노드
 
 코파일럿 작성자로서 사용자의 응답을 기대하고 해당 정보에 기반하여 작업을
 수행하려는 경우 질문 노드를 사용해야 합니다. 사용자 응답은 변수에
@@ -421,7 +394,7 @@ AI를 오케스트레이터로 사용할 때 자동으로 슬롯을 채울 수 �
 •	사용자가 처음에 예상되는 내용을 이해하지 못하는 경우 재시도 프롬프트를 정의하는 것이 가장 좋습니다. 그런 다음 사용자가 질문에 적절하게 대답할 수 있도록 도와줄 때 훨씬 더 명확하게 설명해도 됩니다.
 
 
-#### Fundamental knowledge: Message node 기본 지식: 메시지 노드
+### Fundamental knowledge: Message node 기본 지식: 메시지 노드
 
 메시지 노드는 사용자에게 메시지를 표시하는 데 사용할 수 있습니다. 이
 메시지는 대화 주제에 따라 간단할 수 있습니다. 질문 노드와는 달리 메시지
@@ -470,7 +443,7 @@ I\'d like to check the status of my order please.
 
 **Pro tip :** 트리거 구문은 사용자가 말할 수 있는 모든 발화를   정확하게 일치시킬 필요는 없습니다.      
 
-### Task 4: 코파일럿을 사용하여 Topic 만들기
+## Task 4: 코파일럿을 사용하여 Topic 만들기
 
 Microsoft Copilot Studio에서 주제를 만드는 작업이 이전보다 더
 쉬워졌습니다. 이제 주제가 해야 할 일을 자연어로 설명하여 Microsoft
@@ -547,9 +520,9 @@ I have an issue with my laptop and need to log a support ticket
 ```
 
 
-## 연습 5: 테스트를 위해 데모 웹사이트에 코파일럿 게시하기 
+# 연습 5: 테스트를 위해 데모 웹사이트에 코파일럿 게시하기 
 
-### Task 1: Change your copilot authentication 작업 1: 코파일럿 인증 변경하기
+## Task 1: Change your copilot authentication 작업 1: 코파일럿 인증 변경하기
 
 이 데모의 목적을 위해 봇을 인증 없이 설정하여 데모 사이트 링크를 가진
 모든 사람이 테스트할 수 있도록 합니다. 이를 위해 다음 단계를 따릅니다:
@@ -566,7 +539,7 @@ I have an issue with my laptop and need to log a support ticket
 
 <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image30.png">
 
-### Task 2: Publish your copilot 작업 2: 코파일럿 게시하기
+## Task 2: Publish your copilot 작업 2: 코파일럿 게시하기
 
 Microsoft Copilot Studio는 데모 웹사이트를 제공하므로 URL을 보내서
 누구나 코파일럿을 테스트하도록 초대할 수 있습니다. 이 데모 웹사이트는
