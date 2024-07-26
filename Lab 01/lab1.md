@@ -139,77 +139,77 @@ Microsoft Copilot Studio는 기본부터 고급 코파일럿을 쉽게 만들 �
 
 <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image13.png" width="800">
 
-A.   **홈:** - Microsoft Copilot Studio 홈페이지를 표시합니다. 여기에서 새
+A.   **홈 :** Microsoft Copilot Studio 홈페이지를 표시합니다. 여기에서 새
  코파일럿을 만들 수 있으며, 최근 코파일럿 목록, 템플릿 목록, 학습 자료
  등이 포함되어 있습니다.
  
- **생성:** - 대화형 코파일럿 생성 경험으로 이동합니다.
+ **생성 :** 대화형 코파일럿 생성 경험으로 이동합니다.
  
- **코파일럿:** - 사용자 환경에서 액세스할 수 있는 모든 코파일럿 목록을
+ **코파일럿 :** - 사용자 환경에서 액세스할 수 있는 모든 코파일럿 목록을
  표시합니다.
  
- **라이브러리:** - Microsoft 1st-party 코파일럿 확장을 위한 커넥터 목록을
+ **라이브러리 :** Microsoft 1st-party 코파일럿 확장을 위한 커넥터 목록을
  표시합니다.
 
-B.  **코파일럿** - 목록에서 사용 가능한 코파일럿을 커스터마이징하고 빠르게
+B.  **코파일럿 :** 목록에서 사용 가능한 코파일럿을 커스터마이징하고 빠르게
  탐색할 수 있습니다.
 
-**Pro tip:** 단일 코파일럿 작업 시 코파일럿 목록 고정을 해제하여 작성 공간을 더 많이 확보할 수 있습니다.
+**Pro tip :** 단일 코파일럿 작업 시 코파일럿 목록 고정을 해제하여 작성 공간을 더 많이 확보할 수 있습니다.
 
-C.  **Menu** - 가장 유용한 Copilot Studio 기능 간의 탭 탐색
+C.  **Menu :**  가장 유용한 Copilot Studio 기능 간의 탭 탐색
 
- **개요:** 코파일럿 설명, 지침 및 구성(지식 소스, 주제, 작업, 게시 상태
+ **개요 :** 코파일럿 설명, 지침 및 구성(지식 소스, 주제, 작업, 게시 상태
  등)을 빠르게 확인할 수 있습니다.
  
- **지식:** 코파일럿의 지식 소스(웹사이트, 파일 등)를 관리하는 곳입니다.
+ **지식 :** 코파일럿의 지식 소스(웹사이트, 파일 등)를 관리하는 곳입니다.
  
- **주제:** 사용자 정의 주제와 시스템 주제를 관리하는 곳입니다. 주제는
+ **주제 :** 사용자 정의 주제와 시스템 주제를 관리하는 곳입니다. 주제는
  코파일럿의 핵심 구성 요소로, 대화가 어떻게 진행되는지를 정의합니다.
  주제는 개별 대화 경로로, 함께 사용하면 자연스럽고 적절하게 흐르는
  대화를 할 수 있습니다.
  
- **작업:** 작업을 관리하는 곳입니다. 작업은 입력과 출력을 가진 논리
+ **작업 :** 작업을 관리하는 곳입니다. 작업은 입력과 출력을 가진 논리
  조각입니다. 커넥터, Power Platform 클라우드 흐름, AI Builder, 사용자
  정의 프롬프트 또는 Bot Framework 스킬과 같은 Power Platform 구성
  요소를 활용합니다. 작업은 생성 AI를 활용하여 필요한 입력을 유도하고
  원하는 형식으로 작업 출력을 요약하는 데 유용합니다.
  
- **분석:** 코파일럿이 사용자에게 얼마나 잘 제공되고 있는지 모니터링하고
+ **분석 :** 코파일럿이 사용자에게 얼마나 잘 제공되고 있는지 모니터링하고
  개선 방법을 식별할 수 있는 메트릭을 확인하는 곳입니다.
  
- **채널:** 사용자에게 코파일럿을 제공하는 방법을 구성하는 곳입니다(예:
+ **채널 :** 사용자에게 코파일럿을 제공하는 방법을 구성하는 곳입니다(예:
  Teams, 웹사이트 등).
 
-D.   **개요 --** Copilot 설명, 생성 AI 설명 및 구성(지식 소스, 주제, 작업,
+D.   **개요 :** Copilot 설명, 생성 AI 설명 및 구성(지식 소스, 주제, 작업,
  게시 상태 등)을 빠르게 볼 수 있는 편집 가능
 
-E.  **환경**: 작업 중인 Power Platform 환경을 식별할 수 있는 곳입니다. 보통
+E.  **환경 :** 작업 중인 Power Platform 환경을 식별할 수 있는 곳입니다. 보통
 개발 환경에서 코파일럿을 만들고 작성한 후 테스트 및 프로덕션 환경에
 배포합니다.
 
-F.  **게시**: 최신 버전의 코파일럿을 사용자에게 제공할 수 있는 곳입니다.
+F.  **게시 :** 최신 버전의 코파일럿을 사용자에게 제공할 수 있는 곳입니다.
  테스트 창 외에는 코파일럿을 게시하지 않으면 변경 사항이 최종
  사용자에게 반영되지 않습니다.
 
- **설정**: 코파일럿 구성(고급 설정, 보안, 언어 등)을 관리하는 곳입니다.
+ **설정 :** 코파일럿 구성(고급 설정, 보안, 언어 등)을 관리하는 곳입니다.
 
-G.  **코파일럿 테스트**: 테스트 창을 통해 저장할 필요 없이 즉시 코파일럿과
+G.  **코파일럿 테스트 :** 테스트 창을 통해 저장할 필요 없이 즉시 코파일럿과
  사용자 정의를 테스트할 수 있습니다.
 
 ### Settings interface 설정 인터페이스
 
 <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image14.png" width="800">
 
-1.  **코파일럿 세부 사항**-- 코파일럿 표시 이름,
+1.  **코파일럿 세부 사항 :** 코파일럿 표시 이름,
     아이콘을 업데이트하고 고급 설정을 수정하는 곳입니다(예: Azure
     Application Insights 통합 구성).
 
-2.  **AI 통합 도구** Azure AI for Language(의도
+2.  **AI 통합 도구 :** Azure AI for Language(의도
     인식 및 엔터티 추출용), Azure OpenAI(지식 소스로서 Azure AI 검색
     인덱스와 결합하여 사용), Bot Framework SDK(기존 Azure AI Bot Service
     봇을 스킬로 호출하기 위해 사용)와 같은 고급 확장 도구 리소스.
 
-3.   **생성형 AI**-- 주제 트리거링 및 엔터티 추출을
+3.   **생성형 AI :** 주제 트리거링 및 엔터티 추출을
     위한 더 고전적인 자연어 이해 접근 방식을 다중 의도 탐지 및 더 복잡한
     엔터티 추출을 수행하는 대형 언어 모델 기반 접근 방식으로 대체할 수
     있는 곳입니다. 또한, 지식 소스에 대한 콘텐츠 조정 설정을 구성하여
@@ -221,19 +221,19 @@ G.  **코파일럿 테스트**: 테스트 창을 통해 저장할 필요 없이 
     이를 통해 웹 또는 사용자 정의 애플리케이션 배포에 사용되는 Direct
     Line 채널을 더욱 안전하게 할 수 있습니다.
 
-5.  **Entities** Copilot Studio에는 사용자 발화에서 주요
+5.  **Entities :** Copilot Studio에는 사용자 발화에서 주요
     정보를 식별하는 데 도움이 되는 많은 사전 구축된 엔터티가 포함되어
     있습니다(예: 도시, 날짜, 번호 등). 이 메뉴에서는 폐쇄형 목록 엔터티
     또는 정규식 엔터티를 정의할 수도 있습니다.
 
-6.  **Skills :** - Copilot Studio 코파일럿이 호출할 수 있는 외부 Bot
+6.  **Skills :** Copilot Studio 코파일럿이 호출할 수 있는 외부 Bot
     Framework 스킬을 등록하거나 기존 Azure Service Bot이 Copilot Studio
     코파일럿을 스킬로 사용할 수 있도록 구성하는 곳입니다.
 
-7.  **Languages 언어:** - 코파일럿을 사용할 수 있는 추가 언어를 구성하고
+7.  **Languages 언어 :** 코파일럿을 사용할 수 있는 추가 언어를 구성하고
     지역화할 수 있는 곳입니다.
 
-8.  **언어 이해** - Azure Conversational
+8.  **언어 이해 :** Azure Conversational
     Language Understanding(CLU)에서 Azure AI Language로 개발 및 훈련된
     사용자 정의 언어 모델을 구성할 수 있는 곳입니다. 구성된 경우, 이는
     의도 감지를 위한 기본 제공 자연어 이해 모델(NLU)을 효과적으로 대체할
@@ -279,190 +279,58 @@ The Copilot will offer a greeting in the **Test Copilot** pane
 
 첫 번째 작업에서는 다음 단계를 따라 새 주제를 수동으로 만듭니다:
 
-1.  Select **Topics** in the left menu within Microsoft Copilot Studio.
+1.  Microsoft Copilot Studio의 왼쪽 메뉴에서 Topic을 선택합니다.
 
-Microsoft Copilot Studio의 왼쪽 메뉴에서 주제를 선택합니다.
+2.  화면 상단의 **Add a topic** 드롭다운에서 **From blank**에서 옵션을 선택합니다.
 
-2.  From the **Add a topic** drop down at the top of the screen, select
-    the **From blank** option.
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image19.png">
 
-화면 상단의 주제 추가 드롭다운에서 빈 상태에서 옵션을 선택합니다.
-
-![A screenshot of a computer Description automatically
-generated](./media/image19.png){width="5.701832895888014in"
-height="1.9506681977252844in"}
-
-3.  Rename your topic title, by clicking on **untitled** and renaming it
-    to Check Order Status.
-
-주제 제목을 \"untitled\"에서 \"Check Order Status\"로 클릭하여 이름을
+3.  주제 제목을 \"untitled\"에서 \"Check Order Status\"로 클릭하여 이름을
 바꿉니다.
 
-4.  Select **Phrases**, under the topic Trigger, and select **Edit**.
+4.  주제 트리거 아래에서 구문을 선택하고 편집을 선택합니다.
 
-주제 트리거 아래에서 구문을 선택하고 편집을 선택합니다.
+5.  다음 구문을 붙여넣고 Enter를 누릅니다.
 
-5.  Paste the following **phrases**, and hit **enter**.
+```
+order status
+track my order
+where is my package
+check order status
+has my order shipped
+```
 
-다음 구문을 붙여넣고 Enter를 누릅니다.
+```
+주문 상태
+내 주문 추적
+내 패키지는 어디에 있습니까?
+주문 상태 확인
+내 주문이 배송되었나요?
+```
 
-+----+----+------------------------------------------------------+----+
-|    | ![ | order status                                         |    |
-|    | Op |                                                      |    |
-|    | en | track my order                                       |    |
-|    | q  |                                                      |    |
-|    | uo | where is my package                                  |    |
-|    | ta |                                                      |    |
-|    | ti | check order status                                   |    |
-|    | on |                                                      |    |
-|    | ma | has my order shipped                                 |    |
-|    | rk |                                                      |    |
-|    | ou | 주문 상태                                            |    |
-|    | tl |                                                      |    |
-|    | in | 내 주문 추적                                         |    |
-|    | e] |                                                      |    |
-|    | (. | 내 소포는 어디에 있나요?                             |    |
-|    | /o |                                                      |    |
-|    | ut | 주문 상태 확인                                       |    |
-|    | pu |                                                      |    |
-|    | t/ | 내 주문이 발송되었나요?                              |    |
-|    | la |                                                      |    |
-|    | b1 |                                                      |    |
-|    | .d |                                                      |    |
-|    | oc |                                                      |    |
-|    | x/ |                                                      |    |
-|    | me |                                                      |    |
-|    | di |                                                      |    |
-|    | a/ |                                                      |    |
-|    | im |                                                      |    |
-|    | ag |                                                      |    |
-|    | e8 |                                                      |    |
-|    | .s |                                                      |    |
-|    | vg |                                                      |    |
-|    | ){ |                                                      |    |
-|    | wi |                                                      |    |
-|    | dt |                                                      |    |
-|    | h= |                                                      |    |
-|    | "0 |                                                      |    |
-|    | .4 |                                                      |    |
-|    | 69 |                                                      |    |
-|    | 73 |                                                      |    |
-|    | 64 |                                                      |    |
-|    | 39 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 51 |                                                      |    |
-|    | 00 |                                                      |    |
-|    | 6i |                                                      |    |
-|    | n" |                                                      |    |
-|    | he |                                                      |    |
-|    | ig |                                                      |    |
-|    | ht |                                                      |    |
-|    | =" |                                                      |    |
-|    | 0. |                                                      |    |
-|    | 38 |                                                      |    |
-|    | 02 |                                                      |    |
-|    | 24 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 07 |                                                      |    |
-|    | 26 |                                                      |    |
-|    | 15 |                                                      |    |
-|    | 92 |                                                      |    |
-|    | in |                                                      |    |
-|    | "} |                                                      |    |
-+====+====+======================================================+====+
-+----+----+------------------------------------------------------+----+
-
-6.  Select the **Details** button within the top right corner to open
-    the **Topic details** pane.\
-    This is where you can set a different **Display name** (what the
-    end-user may see) from the configured topic **Name** (what the maker
-    sees).
-
-오른쪽 상단의 세부 사항 버튼을 선택하여 주제 세부 사항 창을 엽니다.
+6.  오른쪽 상단의 세부 사항 버튼을 선택하여 주제 세부 사항 창을 엽니다.
 
 여기에서 구성된 주제 이름(작성자가 보는 것)과 다른 표시 이름(최종
 사용자가 볼 수 있는 것)을 설정할 수 있습니다.
 
-+------+---------------------------------------------------------------+
-| ![Li | **Pro tips:**                                                 |
-| ghts |                                                               |
-| On   | -   The Display name is used in case of disambiguation (for   |
-| out  |     example, when multiple topics match a user utterance, the |
-| line |     user is prompted to choose between two or three           |
-| ](./ |     recognized topics, in a "Did you mean..." question.       |
-| outp |                                                               |
-| ut/l | -   When generative AI orchestration is used instead of the   |
-| ab1. |     built-in natural language understanding for topic         |
-| docx |     triggering, the display name is called the Model display  |
-| /med |     name and is used in addition to the Model description as  |
-| ia/i |     part of the intent detection process.                     |
-| mage |                                                               |
-| 4.sv | -   The Details pane is also where you can configure topic    |
-| g){w |     input and output variables. This is useful when the topic |
-| idth |     is invoked by another topic, or when generative AI        |
-| ="0. |     orchestration is turned on, effectively using a large     |
-| 4724 |     language model to slot fill the necessary variables and   |
-| 4094 |     automatically prompting the user for missing inputs.      |
-| 4881 |                                                               |
-| 8897 | Pro tips:                                                     |
-| 6in" |                                                               |
-| hei  | 표시 이름: 중의성 발생 시 사용됩니다(예: 여러 주제가 사용자   |
-| ght= | 발화와 일치할 때, \"다음 중 어느 것을 의미하셨나요\...\"      |
-| "0.4 | 질문에서 두세 개의 인식된 주제 중 선택하도록 사용자에게       |
-| 7244 | 요청).                                                        |
-| 0944 |                                                               |
-| 8818 | 생성 AI 오케스트레이션 사용 시: 주제 트리거를 위한 내장       |
-| 8976 | 자연어 이해 대신 사용되며, 표시 이름은 모델 표시 이름으로     |
-| in"} | 불리며, 모델 설명과 함께 의도 감지 과정의 일부로 사용됩니다.  |
-|      |                                                               |
-|      | 세부 사항 창: 주제 입력 및 출력 변수를 구성할 수 있는         |
-|      | 곳입니다. 이는 다른 주제에서 주제를 호출할 때나 생성 AI       |
-|      | 오케스트레이션이 켜져 있을 때 유용합니다. 이 경우 대형 언어   |
-|      | 모델을 사용하여 필요한 변수를 슬롯 채우기하고, 사용자가       |
-|      | 누락된 입력을 자동으로 요청합니다.                            |
-+======+===============================================================+
-+------+---------------------------------------------------------------+
+**Pro tips :** 표시 이름: 중의성 발생 시 사용됩니다(예: 여러 주제가 사용자 발화와 일치할 때, \"다음 중 어느 것을 의미하셨나요\...\"  질문에서 두세 개의 인식된 주제 중 선택하도록 사용자에게  요청).                              
+ 생성 AI 오케스트레이션 사용 시: 주제 트리거를 위한 내장 자연어 이해 대신 사용되며, 표시 이름은 모델 표시 이름으로 불리며, 모델 설명과 함께 의도 감지 과정의 일부로 사용됩니다.  세부 사항 창: 주제 입력 및 출력 변수를 구성할 수 있는 곳입니다. 이는 다른 주제에서 주제를 호출할 때나 생성 AI  오케스트레이션이 켜져 있을 때 유용합니다. 이 경우 대형 언어 모델을 사용하여 필요한 변수를 슬롯 채우기하고, 사용자가  누락된 입력을 자동으로 요청합니다.   
 
-7.  Select **Save**.\
-    저장을 선택합니다.
+7.  저장을 선택합니다.
 
 ### Task 2: Review the topic user interface 작업 2: 주제 사용자 인터페이스 검토
 
-Now that you created your first topic, albeit without content except
-trigger phrases, you can explore the authoring user interface (UI) to
-become more familiar with it.
-
 이제 첫 번째 주제를 만들었으므로(트리거 구문 외에는 콘텐츠 없음), 작성
-사용자 인터페이스(UI)를 탐색하여 친숙해질 수 있습니다.\
-\
-![A screenshot of a computer Description automatically
-generated](./media/image20.png){width="7.514583333333333in"
-height="4.906944444444444in"}
+사용자 인터페이스(UI)를 탐색하여 친숙해질 수 있습니다. 
 
-1.  **Topic title** -- The name of the topic that you\'re currently
-    editing, which is visible on the Topics page.
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2001/media/image20.png">
 
-**주제 제목**: 현재 편집 중인 주제의 이름으로, 주제 페이지에 표시됩니다.
+1.  **주제 제목**: 현재 편집 중인 주제의 이름으로, 주제 페이지에 표시됩니다.
 
-2.  **Productivity bar** -- Where you have access to tools, such as cut,
-    copy, paste, and delete for the nodes (messages, questions, etc.).
-
-**생산성 바**: 노드(메시지, 질문 등)를 위한 도구(잘라내기, 복사,
+2.  **생산성 바**: 노드(메시지, 질문 등)를 위한 도구(잘라내기, 복사,
 붙여넣기, 삭제 등)에 접근할 수 있는 곳입니다.
 
-3.  **Copilot, Comments, Variables, Topic checker, Details, Analytics,
-    Open code editor, and Reset to default buttons** -- This area
-    includes: Copilot, which helps you create and update topics using
-    descriptions in natural language; Comments, where authors can
-    collaborate and leave comments on nodes; the Variables menu, to see
-    the list of topic-level and global variables, and their runtime
-    value in the test tab; Topic checker, which you can run anytime from
-    the authoring canvas to check if errors have occurred in your topic
-    that the platform can detect (and if left unresolved would prevent
-    you from publishing the bot); the Details button to access the topic
-    properties.
-
-**코파일럿, 코멘트, 변수, 주제 검사기, 세부 사항, 분석, 코드 편집기 열기
+3. **코파일럿, 코멘트, 변수, 주제 검사기, 세부 사항, 분석, 코드 편집기 열기
 및 기본값으로 재설정 버튼:** 이 영역에는 다음이 포함됩니다:
 
 **코파일럿:** 자연어 설명을 사용하여 주제를 만들고 업데이트하는 데
@@ -478,14 +346,7 @@ height="4.906944444444444in"}
 
 **세부 사항 버튼:** 주제 속성에 접근할 수 있는 곳입니다.
 
-4.  **... More** -- Analytics shows topic usage metrics; Open code
-    editor switches the user interface from a no-code/low-code
-    experience to a pro-code view of the underlying YAML configuration
-    of the topic that developers can edit directly. For some system
-    topics, a Reset to default option is available to revert the topic
-    content to its original state.
-
-**더 보기:**
+4.  **더 보기:**
 
 **분석:** 주제 사용 메트릭을 보여줍니다.
 
@@ -494,63 +355,29 @@ height="4.906944444444444in"}
 전환합니다. 일부 시스템 주제의 경우, 기본값으로 재설정 옵션이 있어 주제
 콘텐츠를 원래 상태로 되돌릴 수 있습니다.
 
-5.  The **Save** button saves the topic changes.
+5.  **저장 버튼:** 주제 변경 사항을 저장합니다.
 
-**저장 버튼:** 주제 변경 사항을 저장합니다.
-
-6.  The **Topic details** menu allows the maker to update the topic
-    Name, Display name, Description and Status (active/inactive). When
-    generative AI orchestration is enabled, display name is replaced
-    with Model display name and Model description becomes available. It
-    also allows the configuration of inputs and outputs. The inputs can
-    be automatically slot filled when using generative AI as the
-    orchestrator.
-
-**주제 세부 사항 메뉴:** 작성자가 주제 이름, 표시 이름, 설명 및
+6.  **주제 세부 사항 메뉴:** 작성자가 주제 이름, 표시 이름, 설명 및
 상태(활성/비활성)를 업데이트할 수 있는 곳입니다. 생성 AI
 오케스트레이션이 활성화된 경우, 표시 이름이 모델 표시 이름으로 대체되며
 모델 설명이 추가로 사용 가능합니다. 입력과 출력을 구성할 수 있으며, 생성
 AI를 오케스트레이터로 사용할 때 자동으로 슬롯을 채울 수 있습니다.
 
-7.  The **trigger switcher** button is present at the Trigger node of
-    every topic. By default, new topics have the Phrases trigger (or
-    Triggered by copilot, when generative AI orchestration is enabled),
-    but this can be switched to Message received, Event received,
-    Activity received, Conversation update received, Invoke received,
-    Redirect and Inactivity.
-
-**트리거 전환 버튼:** 모든 주제의 트리거 노드에 있으며, 기본적으로
+7.  **트리거 전환 버튼:** 모든 주제의 트리거 노드에 있으며, 기본적으로
 새로운 주제는 구문 트리거(또는 생성 AI 오케스트레이션이 활성화된 경우,
 코파일럿에 의해 트리거됨)를 갖지만, 메시지 수신, 이벤트 수신, 활동 수신,
 대화 업데이트 수신, 호출 수신, 리디렉션 및 비활동으로 전환할 수
 있습니다.
 
-8.  **Add a new node** -- the add a new node button allows the maker to
-    add activities to a topic, such as send a message, ask a question,
-    add a condition, etc., to build the dialog logic.
-
-**새 노드 추가:** 새 노드 추가 버튼을 사용하여 주제에 활동을 추가할 수
+8.  **새 노드 추가:** 새 노드 추가 버튼을 사용하여 주제에 활동을 추가할 수
 있습니다. 예를 들어, 메시지 보내기, 질문하기, 조건 추가 등을 통해 대화
 논리를 구축할 수 있습니다.
 
-9.  **Authoring canvas controls** - You can use these controls to
-    navigate the authoring canvas, which can become large for extensive
-    topics. The included controls are a map of the canvas, zoom, hand,
-    selection and reset.
-
-**작성 캔버스 제어:** 작성 캔버스가 광범위한 주제에 대해 커질 수
+9. **작성 캔버스 제어:** 작성 캔버스가 광범위한 주제에 대해 커질 수
 있으므로 이 제어를 사용하여 탐색할 수 있습니다. 포함된 제어에는 캔버스
 맵, 줌, 핸드, 선택 및 리셋이 있습니다.
 
 ### Task 3: Add content to your topic 작업 3: 주제에 콘텐츠 추가
-
-This exercise doesn\'t cover how to add a large amount of content to
-your topic; rather, it provides the steps to add a single question node,
-message node, and topic redirection so that you can become familiar with
-the overall process of creating a topic, testing, and publishing in
-Microsoft Copilot Studio. The Publish demo exercise in this module
-covers a more in-depth review of the authoring capabilities in Microsoft
-Copilot Studio.
 
 이 연습은 주제에 많은 양의 콘텐츠를 추가하는 방법을 다루지는 않습니다.
 대신, 하나의 질문 노드, 메시지 노드 및 주제 리디렉션을 추가하는 단계를
@@ -559,57 +386,29 @@ Copilot Studio.
 연습에서는 Microsoft Copilot Studio의 작성 기능에 대해 더 깊이 있게
 검토합니다.
 
-The next section of this exercise covers foundational knowledge for
-understanding the central components of Microsoft Copilot Studio and
-creating topics.
-
 이 연습의 다음 섹션에서는 Microsoft Copilot Studio의 핵심 구성 요소를
 이해하고 주제를 만드는 데 필요한 기본 지식을 다룹니다.
 
 #### Fundamental knowledge: Question node 기본 지식: 질문 노드
-
-As a copilot author, you should use the Question node when you\'re
-expecting a response from the user and you want to do something based on
-that information. The user response is stored in a variable, and
-question nodes can also use entities and slot filling features, both
-concepts that are covered later in this exercise.
 
 코파일럿 작성자로서 사용자의 응답을 기대하고 해당 정보에 기반하여 작업을
 수행하려는 경우 질문 노드를 사용해야 합니다. 사용자 응답은 변수에
 저장되며, 질문 노드는 엔터티와 슬롯 채우기 기능도 사용할 수 있습니다. 이
 개념은 이 연습의 뒷부분에서 다룹니다.
 
-The Question node uses many functions that a Message node does, such as
-rich text, speech authoring, and rich text response types such images,
-videos, and Adaptive Cards.
-
 질문 노드는 메시지 노드가 하는 많은 기능을 사용합니다. 예를 들어 리치
 텍스트, 음성 작성 및 이미지, 비디오, 적응형 카드와 같은 리치 텍스트 응답
 유형을 사용할 수 있습니다.
 
-1.  In the topic that you have open from the previous task, select the
-    **+ button** below the existing node in the canvas and then select
-    **Ask a question** to add a new Question node.
-
-이전 작업에서 열어둔 주제에서 캔버스의 기존 노드 아래에 있는 + 버튼을
+1.  이전 작업에서 열어둔 주제에서 캔버스의 기존 노드 아래에 있는 + 버튼을
 선택한 다음 질문하기를 선택하여 새로운 질문 노드를 추가합니다.
 
-2.  Enter What would you like to do with your order? in the field and
-    then make sure that the Identify value is set to **User\'s entire
-    response**. This node is asking the question after the topic is
-    triggered about what the user wants to do. The Publish demo exercise
-    extends this task to using entities and slot filling.
-
-\"주문과 관련하여 무엇을 하고 싶으신가요?\"를 입력하고 식별 값이
+2.  \"주문과 관련하여 무엇을 하고 싶으신가요?\"를 입력하고 식별 값이
 \"사용자의 전체 응답\"으로 설정되어 있는지 확인합니다. 이 노드는 주제가
 트리거된 후 사용자가 무엇을 원하는지 묻는 질문을 합니다. 게시 데모
 연습에서는 엔터티와 슬롯 채우기를 사용하는 작업을 확장합니다.
 
-3.  By default, the user response is saved as a variable named **Var1**.
-    You can **click on the variable name** to change its name, for
-    example to OrderRequest.
-
-기본적으로 사용자 응답은 Var1이라는 변수에 저장됩니다. 변수 이름을 예를
+3.  기본적으로 사용자 응답은 Var1이라는 변수에 저장됩니다. 변수 이름을 예를
 들어 OrderRequest로 변경하려면 변수 이름을 클릭할 수 있습니다.
 
 +------+---------------------------------------------------------------+
