@@ -147,8 +147,7 @@ Can I check on an order?
 3.  를 클릭하십시오 **\...** 옵션을 선택하고 **상태** 설정을 전환하여
     주제를 끕니다.
 
-![컴퓨터 스크린샷 설명 자동
-생성](./output/lab2.docx/media/image12.png)
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2002/media/image12.png">
 
 주제 목록에서 시각적 표시기는 비활성화된 주제를 보여줍니다.
 
@@ -178,12 +177,10 @@ Can I check on an order?
 발화에서 정보를 검색했기 때문입니다. 이 방법을 사용하면 사용자가 이미
 정보를 제공한 질문을 할 필요가 없습니다.\
 \
-![컴퓨터 스크린샷 설명 자동
-생성](./output/lab2.docx/media/image13.png)
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2002/media/image13.png">
 
 
 
-![](./output/lab2.docx/media/image46.png)
+<img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2002/media/image46.png">
 
-Microsoft Copilot Studio 통합 작성의 중앙 작성 기능에 대한 모든 실습을
-성공적으로 완료했습니다.
+Microsoft Copilot Studio 통합 작성의 중앙 작성 기능에 대한 모든 실습을 성공적으로 완료했습니다.
