@@ -1,48 +1,27 @@
+# Microsoft Copilot Studio 
 
-연습 1: 코파일럿 만들기를 위해 로그인하기 
 
-  
+## 이 실습의 목표
 
-이 연습에서는 제공된 자격 증명을 사용하여 Microsoft Copilot Studio 작성 환경에 로그인합니다. 
+이 실습 후, 다음을 수행할 수 있습니다.          
+                                             
+-   Microsoft Copilot Studio의 통합 작성 캔버스를 사용하여 새로운 맞춤형 코파일럿을 만듭니다. 
+-   첫 번째 Topic을 만들고, 리치 텍스트 응답을  포함한 콘텐츠를 Topic에 추가합니다.
+-   Microsoft Copilot Studio의 새로운 코파일럿 기능을 사용하여 AI로 Topic을 만듭니다. 
+-   Microsoft Copilot Studio에서 봇을 테스트하는 방법을 학습합니다. 
+-   데모 웹사이트에 봇을 게시합니다. 
 
-  
 
-작업 1: 브라우저 환경 설정 
+## 사전 준비
 
- 
-
-기존에 로그인한 경험과 충돌을 피하기 위해 다음 세 가지 옵션 중 하나를 사용하여 이 실습을 수행할 수 있습니다. 
-
- 
-
-Set up a new work profile specific to that workshop  
-
-해당 워크숍에 특정한 새 작업 프로필 설정 
-
- 
-
-Lights On outline 
-
-Pro tip: best option to switch between your work and trial environments while keeping history of your work. Ideal if you want to continue using the account later. 
-
-Pro tip: 작업 환경과 평가판 환경 간에 작업 기록을 유지하면서 전환하는 가장 좋은 옵션입니다. 나중에 계정을 계속 사용하려는 경우 이상적입니다. 
-
- 
-
-Or browse as a guest. 
-
-게스트로 브라우징 
-
- 
-
-Or start an InPrivate session. 
-
-InPrivate 세션 시작 
-
- 
-
- 
-
- 
-
- 
+> 일부 실습은 이전 실습에서 다룬 기능과 작업을 참조합니다. 실습은 대부분
+> Microsoft Copilot Studio 평가판에 액세스할 수 있으면 이전 모듈을
+> 완료하지 않아도 진행할 수 있도록 설계되었습니다. 그러나 제품의 기능과
+> 기능을 제대로 보여주기 위해 특정 모듈을 완료한 후에 일부 실습을
+> 시작하는 것이 좋습니다.
+>
+> Lab 01: Microsoft Copilot Studio에서 첫 번째 코파일럿 만들기에는
+> 다음이 필요합니다:
+>>   인터넷 액세스가 가능한 컴퓨터
+>>  제공된 Microsoft 테넌트에 로그인할 수 있어야 합니다 (일부 회사는
+    사용자가 회사 테넌트에만 연결하도록 강제할 수 있습니다).
