@@ -29,121 +29,42 @@
 
 ## 작업 1: 생성 AI 오케스트레이션을 위한 맞춤형 지시 사항 구성
 
- 
-
 맞춤형 지시 사항은 생성 AI 오케스트레이션을 주요 의도 인식 메커니즘으로
 사용하는지 또는 고전적인 자연어 이해 접근 방식을 사용하는지에 따라
 별도의 위치에 설정할 수 있습니다. 생성 AI 오케스트레이션이 활성화된 경우
 지시 사항은 코파일럿 수준에서 설정해야 합니다.
 
-1.  Let's first make sure Generative AI orchestration is enabled. From
-    the navigation, go to **Settings** tab.
+1.  먼저 생성 AI 오케스트레이션이 활성화되어 있는지 확인합니다. 탐색에서 설정 탭으로 이동합니다.
 
-먼저 생성 AI 오케스트레이션이 활성화되어 있는지 확인합니다. 탐색에서
-설정 탭으로 이동합니다.
+2.  생성 AI 메뉴로 이동합니다.
 
-2.  Navigate to the **Generative AI** menu.
+3.  \"Copilot이 응답하는 방식을 어떻게 결정해야 합니까?\"에서 \"Generative (미리보기)\"를 선택합니다.
 
-생성 AI 메뉴로 이동합니다.
+4.  설정을 저장하고 닫습니다.
 
-3.  In **How should your copilot decide how to respond?,** select
-    **Generative (preview)**.
+5.  탐색에서 개요 탭으로 이동합니다.
 
-\"Copilot이 응답하는 방식을 어떻게 결정해야 합니까?\"에서 \"Generative
-(미리보기)\"를 선택합니다.
+6.  세부 정보 영역에서 편집을 선택합니다.
 
-4.  **Save** and **Close** the settings.
+7.  지시 사항을 업데이트합니다. 사용자 맥락에 특정한 변수를 사용할 수 있음을 주목하십시오.
 
-설정을 저장하고 닫습니다.
+    ```
+    Talk like a pirate and use pirate expressions.
+    Use emojis in your responses.
+    Answer in less than 50 words.
+    Refuse to answer questions that are not about Microsoft products.
+    ```
 
-5.  From the navigation, go to the **Overview** tab.
+    ```
+    해적처럼 말하고 해적 표현을 사용하세요.
+    응답에 이모티콘을 사용하세요.
+    50단어 이내로 답변하세요.
+    Microsoft 제품과 관련이 없는 질문에는 답변하지 마세요.
+    ```
 
-> 탐색에서 개요 탭으로 이동합니다.
+8.  저장합니다.
 
-6.  In the **Details** area, select **Edit**.
-
-세부 정보 영역에서 편집을 선택합니다.
-
-7.  Update the **Instructions**\
-    Notice that you can use variables that are specific to the user
-    context.
-
-지시 사항을 업데이트합니다. 사용자 맥락에 특정한 변수를 사용할 수 있음을
-주목하십시오.
-
-+----+----+------------------------------------------------------+----+
-|    | ![ | Talk like a pirate and use pirate expressions.       |    |
-|    | Op |                                                      |    |
-|    | en | Use emojis in your responses.                        |    |
-|    | q  |                                                      |    |
-|    | uo | Answer in less than 50 words.                        |    |
-|    | ta |                                                      |    |
-|    | ti | Refuse to answer questions that are not about        |    |
-|    | on | Microsoft products.                                  |    |
-|    | ma |                                                      |    |
-|    | rk | 해적처럼 말하고 해적 표현을 사용하십시오.            |    |
-|    | ou |                                                      |    |
-|    | tl | 응답에 이모지를 사용하십시오.                        |    |
-|    | in |                                                      |    |
-|    | e] | 50단어 이내로 답변하십시오.                          |    |
-|    | (. |                                                      |    |
-|    | /o | Microsoft 제품에 관한 질문이 아닌 경우 답변을        |    |
-|    | ut | 거부하십시오.                                        |    |
-|    | pu |                                                      |    |
-|    | t/ |                                                      |    |
-|    | la |                                                      |    |
-|    | b5 |                                                      |    |
-|    | .d |                                                      |    |
-|    | oc |                                                      |    |
-|    | x/ |                                                      |    |
-|    | me |                                                      |    |
-|    | di |                                                      |    |
-|    | a/ |                                                      |    |
-|    | im |                                                      |    |
-|    | ag |                                                      |    |
-|    | e8 |                                                      |    |
-|    | .s |                                                      |    |
-|    | vg |                                                      |    |
-|    | ){ |                                                      |    |
-|    | wi |                                                      |    |
-|    | dt |                                                      |    |
-|    | h= |                                                      |    |
-|    | "0 |                                                      |    |
-|    | .4 |                                                      |    |
-|    | 69 |                                                      |    |
-|    | 73 |                                                      |    |
-|    | 64 |                                                      |    |
-|    | 39 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 51 |                                                      |    |
-|    | 00 |                                                      |    |
-|    | 6i |                                                      |    |
-|    | n" |                                                      |    |
-|    | he |                                                      |    |
-|    | ig |                                                      |    |
-|    | ht |                                                      |    |
-|    | =" |                                                      |    |
-|    | 0. |                                                      |    |
-|    | 38 |                                                      |    |
-|    | 02 |                                                      |    |
-|    | 24 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 07 |                                                      |    |
-|    | 26 |                                                      |    |
-|    | 15 |                                                      |    |
-|    | 92 |                                                      |    |
-|    | in |                                                      |    |
-|    | "} |                                                      |    |
-+====+====+======================================================+====+
-+----+----+------------------------------------------------------+----+
-
-8.  **Save**
-
-저장합니다.
-
-![A screenshot of a computer Description automatically
-generated](./output/lab5.docx/media/image16.png){width="4.96261154855643in"
-height="2.857592957130359in"}
+    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2005/media/image16.png">
 
 ## Task 2: Configure custom instructions for classic orchestration
 
@@ -153,204 +74,56 @@ height="2.857592957130359in"}
 일반적으로 대화 증진 시스템 주제의 생성적 응답 노드 수준에서 설정해야
 합니다(이 노드는 어디에나 추가될 수 있음).
 
-1.  Let's make sure **Classic** orchestration is enabled. From the
-    navigation, go to **Settings** tab.
+1. 고전적 오케스트레이션이 활성화되어 있는지 확인합니다. 탐색에서 설정 탭으로 이동합니다.
 
-고전적 오케스트레이션이 활성화되어 있는지 확인합니다. 탐색에서 설정
-탭으로 이동합니다.
+2. 생성 AI 메뉴로 이동합니다.
 
-2.  Navigate to the **Generative AI** menu.
+3. \"Copilot이 응답하는 방식을 어떻게 결정해야 합니까?\"에서 \"Classic\"을 선택합니다.
 
-생성 AI 메뉴로 이동합니다.
+4. 설정을 저장하고 닫습니다.
 
-3.  In **How should your copilot decide how to respond?**, select
-    **Classic**.
+5. 탐색에서 주제 탭으로 이동합니다.
 
-\"Copilot이 응답하는 방식을 어떻게 결정해야 합니까?\"에서 \"Classic\"을
-선택합니다.
+6. 시스템 주제 영역을 선택합니다.
 
-4.  **Save** and **Close** the settings.
+7. 대화 증진 주제를 선택합니다.
 
-설정을 저장하고 닫습니다.
+8. 생성적 응답 노드 속성으로 이동합니다.
 
-5.  From the navigation, go to the **Topics** tab.
+9.  지시 사항을 사용자 지정할 수 있는 텍스트 영역이 있습니다. 여기에 맞춤형 지시 사항을 추가합니다.
 
-탐색에서 주제 탭으로 이동합니다.
+    ```
+    Talk like a pirate and use pirate expressions.
+    Use emojis in your responses.
+    Answer in less than 50 words.
+    ```
 
-6.  Select the **System** topics area.
+    ```
+    해적처럼 말하고 해적 표현을 사용하세요.
+    답변에 이모티콘을 사용하세요.
+    50단어 이내로 답변하세요.
+    ```
+    
+    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2005/media/image17.png">
 
-시스템 주제 영역을 선택합니다.
+10. 저장합니다.
 
-7.  Select the **Conversational boosting** topic.
+## Task 3: 맞춤형 지시 사항 테스트
 
-> 대화 증진 주제를 선택합니다.
+1. 테스트 창을 엽니다.
 
-8.  Go to the **Create generative answers** node **properties**
+2. 기존 주제와 일치하지 않는 질문을 하여 대화 증진 주제를 트리거합니다.
 
-생성적 응답 노드 속성으로 이동합니다.
+    ```
+    What is Microsoft Copilot Studio?
+    ```
 
-9.  There is text area where the placeholder text says **Customize your
-    prompt with variables and plain language**. Add your custom
-    instructions here.
+    ```
+    Microsoft Copilot Studio란 무엇인가요?
+    ```
 
-지시 사항을 사용자 지정할 수 있는 텍스트 영역이 있습니다. 여기에 맞춤형
-지시 사항을 추가합니다.
-
-+----+----+------------------------------------------------------+----+
-|    | ![ | Talk like a pirate and use pirate expressions.       |    |
-|    | Op |                                                      |    |
-|    | en | Use emojis in your responses.                        |    |
-|    | q  |                                                      |    |
-|    | uo | Answer in less than 50 words.                        |    |
-|    | ta |                                                      |    |
-|    | ti | 해적처럼 말하고 해적 표현을 사용하십시오.            |    |
-|    | on |                                                      |    |
-|    | ma | 응답에 이모지를 사용하십시오.                        |    |
-|    | rk |                                                      |    |
-|    | ou | 50단어 이내로 답변하십시오.                          |    |
-|    | tl |                                                      |    |
-|    | in |                                                      |    |
-|    | e] |                                                      |    |
-|    | (. |                                                      |    |
-|    | /o |                                                      |    |
-|    | ut |                                                      |    |
-|    | pu |                                                      |    |
-|    | t/ |                                                      |    |
-|    | la |                                                      |    |
-|    | b5 |                                                      |    |
-|    | .d |                                                      |    |
-|    | oc |                                                      |    |
-|    | x/ |                                                      |    |
-|    | me |                                                      |    |
-|    | di |                                                      |    |
-|    | a/ |                                                      |    |
-|    | im |                                                      |    |
-|    | ag |                                                      |    |
-|    | e8 |                                                      |    |
-|    | .s |                                                      |    |
-|    | vg |                                                      |    |
-|    | ){ |                                                      |    |
-|    | wi |                                                      |    |
-|    | dt |                                                      |    |
-|    | h= |                                                      |    |
-|    | "0 |                                                      |    |
-|    | .4 |                                                      |    |
-|    | 69 |                                                      |    |
-|    | 73 |                                                      |    |
-|    | 64 |                                                      |    |
-|    | 39 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 51 |                                                      |    |
-|    | 00 |                                                      |    |
-|    | 6i |                                                      |    |
-|    | n" |                                                      |    |
-|    | he |                                                      |    |
-|    | ig |                                                      |    |
-|    | ht |                                                      |    |
-|    | =" |                                                      |    |
-|    | 0. |                                                      |    |
-|    | 38 |                                                      |    |
-|    | 02 |                                                      |    |
-|    | 24 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 07 |                                                      |    |
-|    | 26 |                                                      |    |
-|    | 15 |                                                      |    |
-|    | 92 |                                                      |    |
-|    | in |                                                      |    |
-|    | "} |                                                      |    |
-+====+====+======================================================+====+
-+----+----+------------------------------------------------------+----+
-
-![](./output/lab5.docx/media/image17.png){width="3.0912325021872267in"
-height="2.0522167541557303in"}
-
-10. **Save**
-
-저장합니다.
-
-## Task 3: Test custom instructions 작업 3: 맞춤형 지시 사항 테스트
-
- 
-
-1.  Launch the **Test** pan
-
-테스트 창을 엽니다.
-
-2.  Ask a question that doesn't match an existing topic to trigger the
-    **Conversational boosting** topic.
-
-기존 주제와 일치하지 않는 질문을 하여 대화 증진 주제를 트리거합니다.
-
-+----+----+------------------------------------------------------+----+
-|    | ![ | What is Microsoft Copilot Studio?                    |    |
-|    | Op |                                                      |    |
-|    | en | Microsoft Copilot Studio란 무엇인가요?               |    |
-|    | q  |                                                      |    |
-|    | uo |                                                      |    |
-|    | ta |                                                      |    |
-|    | ti |                                                      |    |
-|    | on |                                                      |    |
-|    | ma |                                                      |    |
-|    | rk |                                                      |    |
-|    | ou |                                                      |    |
-|    | tl |                                                      |    |
-|    | in |                                                      |    |
-|    | e] |                                                      |    |
-|    | (. |                                                      |    |
-|    | /o |                                                      |    |
-|    | ut |                                                      |    |
-|    | pu |                                                      |    |
-|    | t/ |                                                      |    |
-|    | la |                                                      |    |
-|    | b5 |                                                      |    |
-|    | .d |                                                      |    |
-|    | oc |                                                      |    |
-|    | x/ |                                                      |    |
-|    | me |                                                      |    |
-|    | di |                                                      |    |
-|    | a/ |                                                      |    |
-|    | im |                                                      |    |
-|    | ag |                                                      |    |
-|    | e8 |                                                      |    |
-|    | .s |                                                      |    |
-|    | vg |                                                      |    |
-|    | ){ |                                                      |    |
-|    | wi |                                                      |    |
-|    | dt |                                                      |    |
-|    | h= |                                                      |    |
-|    | "0 |                                                      |    |
-|    | .4 |                                                      |    |
-|    | 69 |                                                      |    |
-|    | 73 |                                                      |    |
-|    | 64 |                                                      |    |
-|    | 39 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 51 |                                                      |    |
-|    | 00 |                                                      |    |
-|    | 6i |                                                      |    |
-|    | n" |                                                      |    |
-|    | he |                                                      |    |
-|    | ig |                                                      |    |
-|    | ht |                                                      |    |
-|    | =" |                                                      |    |
-|    | 0. |                                                      |    |
-|    | 38 |                                                      |    |
-|    | 02 |                                                      |    |
-|    | 24 |                                                      |    |
-|    | 19 |                                                      |    |
-|    | 07 |                                                      |    |
-|    | 26 |                                                      |    |
-|    | 15 |                                                      |    |
-|    | 92 |                                                      |    |
-|    | in |                                                      |    |
-|    | "} |                                                      |    |
-+====+====+======================================================+====+
-+----+----+------------------------------------------------------+----+
-
-> ![A screenshot of a phone Description automatically
-> generated](./output/lab5.docx/media/image18.png){width="3.6457830271216096in"
-> height="4.956964129483815in"}
+    
+    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2005/media/image18.png" width="400">
 
  
 
