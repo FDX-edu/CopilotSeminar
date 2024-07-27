@@ -16,19 +16,9 @@ SSML을 사용하는 경우 자연스러운 말처럼 들리도록 텍스트를 
 변경할 수 있습니다.
 
 -   **오디오** - 사전 녹음된 오디오를 추가합니다.
-
-<!-- -->
-
 -   **Break** - 단어 사이에 일시 중지 또는 중단을 삽입합니다.
-
-<!-- -->
-
 -   **강조** - 단어와 구문에 스트레스 수준을 추가합니다.
+-   **운율** - 피치, 윤곽, 범위, 속도 및 볼륨에 대한 변경 사항을 지정합니다.
 
-<!-- -->
-
--   **운율** - 피치, 윤곽, 범위, 속도 및 볼륨에 대한 변경 사항을
-    지정합니다.
-
-자세한 내용은 Speech Synthesis Markup Language를 참조하세요.
+자세한 내용은 [Speech Synthesis Markup Language](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup/)를 참조하세요.
 
