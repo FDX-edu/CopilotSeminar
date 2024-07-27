@@ -4,7 +4,7 @@
 
 2.  코파일럿의 지식 탭으로 이동하여 지식 추가를 선택합니다.
 
-3.  SharePoint 및 OneDrive를 선택하고 다음 URL을 사용합니다: 설명에 \'Answer\'를 입력합니다.
+3.  SharePoint 및 OneDrive를 선택하고 다음 URL copilotstudiotraining.sharepoint.com/ 을 사용합니다: 설명에 \'Answer\'를 입력합니다.
 
 4.  SharePoint 및 OneDrive는 내부 데이터 소스이므로 최종 사용자는 인증해야 합니다. 인증되지 않은 경우 설정으로 이동하여 보안 인증을 선택한 후 \'Microsoft로 인증\'을 선택하고 저장합니다..
 
