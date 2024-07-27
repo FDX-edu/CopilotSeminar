@@ -4,19 +4,17 @@
 
 2.  **메시지에 대한 문자 메시지 변수를** 삭제합니다.
 
-    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2003/media/image28.png">
+    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2003/media/image28.png" width="400">
 
-3.  추가**,** 적응형 카드를 **선택합니다.**
+3.  추가, 적응형 카드를 선택합니다.
 
-    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2003/media/image29.png">
+    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2003/media/image29.png"  width="200">
 
-4.  JSON 편집에서 **수식**으로 **전환** 하여 적응형 카드를 동적으로
-    만들고 Power Fx 언어로 작성할 수 있습니다.
+4.  JSON 편집에서 **수식**으로 **전환** 하여 적응형 카드를 동적으로 만들고 Power Fx 언어로 작성할 수 있습니다.
 
-    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2003/media/image30.png">
+    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2003/media/image30.png"  width="400">
 
-5.  **ServiceNow 티켓 정보에 대한 참조가 이미 포함되어 있는 아래의 Power
-    Fx 수식을** 붙여넣습니다
+5.  **ServiceNow 티켓 정보에 대한 참조가 이미 포함되어 있는 아래의 PowerFx 수식을** 붙여넣습니다
 
     아래 텍스트를 복사하는 데 어려움이 있으면 Lab 파일의 Misc 폴더로 이동하여 ServiceNow Adaptive Card Power Fx.txt를 엽니다.
 
@@ -149,7 +147,7 @@
     티켓 INC0007001에 대한 최신 정보는 무엇입니까?    
     ```
       
-    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2003/media/image31.png">
+    <img src="https://github.com/FDX-edu/240819_CopilotEdu_test/raw/main/Lab%2003/media/image31.png" width="400">
 
 # 요약
 
