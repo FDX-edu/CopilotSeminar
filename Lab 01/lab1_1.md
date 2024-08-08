@@ -22,7 +22,7 @@
 
 ## 작업 2. Copilot Studio에 로그인하기
 
-   1.  [aka.ms/CopilotStudioStart](https://aka.ms/CopilotStudioStart)로 이동
+   1.  [aka.ms/CopilotStudioStart](https://aka.ms/CopilotStudioStart){:target="_blank"}로 이동
     
    2. **제공된 사용자 이름을 입력하고 다음을 클릭**
     
