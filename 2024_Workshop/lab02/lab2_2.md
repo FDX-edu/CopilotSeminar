@@ -141,9 +141,6 @@ Fx를 사용하는 사용자 지정 값, 사용자 입력 값, 질문의 응답 
     데이터를 기반으로 동적으로 만드는 데 일반적입니다.
 
     ```
-    No problem. We can {Global.OrderRequest} that for you. Let us take a look at that now and get your information
-    ```
-    ```
     문제 없어요. 우리는 당신을 위해 {Global.OrderRequest} 할 수 있습니다. 지금 살펴보고 귀하의 정보를 얻겠습니다.
     ```
 
@@ -156,25 +153,9 @@ Fx를 사용하는 사용자 지정 값, 사용자 입력 값, 질문의 응답 
     작동 방식을 보여 줍니다.
 
     ```
-    I unfortunately have to cancel my order, can you help me please?
-    ```
-    ```
     안타깝게도 주문을 취소해야 하는데, 도와주실 수 있나요?
     ```
     <img src="./images/image23.png">
-
-6.  **OrderRequest** 값의 첫 글자는 여전히 대문자로 되어 있습니다. 이
-    문법 문제를 해결하려면 변수 값을 직접 참조하는 대신 수식을 사용하여
-    단어를 낮추도록 선택할 수 있습니다. 메시지 노드로 돌아가서 초기 변수
-    값 {Global.OrderRequest}를 제거하고, 대신 **fx** 단추를 선택하고
-    Lower() Power Fx 수식을 사용합니다. 수식 내에서 변수 값을 참조하는
-    방법을 확인합니다.
-
-    ```
-    Lower(Global.OrderRequest)
-    ```
-
-    <img src="./images/image24.png">
 
     <img src="./images/image4.svg" width="30"> **전문가 팁:** 변수 관리 옵션 내에는 모든 변수 값을 지우는 모든 변수 지우기 옵션이 있습니다. 이 옵션은 같은 주제로 시작하거나 루프백하지만 새로운 값을 가져오고 싶을 때 유용합니다. 특히 이미 값이 있는 질문을 건너뛸 수 있는 질문 동작 속성을 설정한 경우에 유용합니다.
 
