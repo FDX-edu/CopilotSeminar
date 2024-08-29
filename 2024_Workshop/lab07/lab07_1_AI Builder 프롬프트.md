@@ -1,4 +1,4 @@
-# AI Builder prompts AI Builder 프롬프트
+# AI Builder 프롬프트
 
 프롬프트를 LLM(Large Language Model)에게 주는 작업이나 목표로
 생각하십시오. 프롬프트 빌더를 사용하면 맞춤형 프롬프트를 만들고
