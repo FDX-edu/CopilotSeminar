@@ -1,4 +1,4 @@
-# AI general knowledge AI 일반 지식
+# AI general knowledge 
 
 지식 소스 외에도 AI 일반 지식을 사용하여 고객의 질문에 대한 정보를 찾아
 제공할 수 있습니다. 일반 지식을 사용하면 고객의 모든 질문을 다루지 못할
