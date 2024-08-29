@@ -15,3 +15,18 @@
 * Lab 7: AI Builder 프롬프트 호출
 
 
+
+# Agenda
+
+|Time	|Duration	|Topic|
+| --- | --- | --- |
+|10:00 - 10:30	|30	|Copilot Studio 제품 소개|
+|10:30 - 10:40	|10	|coffee break|
+|10:40 - 11:30	|50	|Copilot Studio LAB 1~2</br> - 기초 설명 및 기초 만들기 |
+|11:30 - 13:00	|90	|Lunch break|
+|13:00 - 13:50	|50	|Copilot Studio LAB 2~3</br> 기초 만들기+ 및 서비스나우|
+|13:50 - 14:00	|10	|coffee break|
+|14:00 - 14:50	|50	|Copilot Studio LAB 4~5</br>- HTTP 호출 및 SP문서|
+|14:50 - 15:00	|10	|coffee break|
+|15:00 - 15:30	|30	|Copilot Studio LAB 6~7</br> - MSN 날씨 및 AI 프롬프트 |
+|15:30 - 16:00	|30	|Q & A|
