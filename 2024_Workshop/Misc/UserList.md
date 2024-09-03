@@ -1,10 +1,7 @@
 # 참석자 명단 및 계정 배정
 
 실습을 위한 로그인 주소 : https://copilotstudio.microsoft.com </br>
-사용자명 : userXX@5pv738.onmicrosoft.com</br>
-비밀번호 : A123b456!!</br>
 
-사용자명과 비밀번호는 워크샵때 공개예정
 
 |성명|사용자명|비고|
 |---|---|---|
