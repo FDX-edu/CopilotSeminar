@@ -12,24 +12,24 @@
 |*동준|user05|-|
 |*목은|user06| done|
 |*병준|user07|-|
-|*상원|user08||
-|*석현|user09||
-|*성록|user10||
-|*세원|user11||
-|*수현|user12 ||
-|*승철|user13||
-|*영주|user14||
-|*영훈|user15||
-|*원규|user16||
-|*윤지|user17||
-|*장은|user18||
-|*제선|user19||
-|*종아|user20||
-|*주철|user21||
-|*찬|user22||
-|*효신|user23||
-|*희근|user24||
-|*희진|user25||
+|*상원|user08| done|
+|*석현|user09| done |
+|*성록|user10| done|
+|*세원|user11| done|
+|*수현|user12 | done|
+|*승철|user13| done|
+|*영주|user14| done|
+|*영훈|user15| done |
+|*원규|user16| done, no pa|
+|*윤지|user17| done, no pa |
+|*장은|user18| done |
+|*제선|user19| done |
+|*종아|user20| done |
+|*주철|user21| - |
+|*찬|user22| done |
+|*효신|user23| done |
+|*희근|user24| done|
+|*희진|user25| - |
 
 
 
