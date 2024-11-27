@@ -1,3 +1,5 @@
+# 참고  https://learn.microsoft.com/en-us/training/paths/power-virtual-agents-workshop/
+
 # 2024 Microsoft Copilot Studio Hands-on workshop
 
 * Lab 1: Microsoft Copilot Studio에서 첫번째 Copilot 만들기
